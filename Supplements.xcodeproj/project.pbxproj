@@ -129,10 +129,10 @@
 		C795A2C42245184C00F233A4 /* Supplements */ = {
 			isa = PBXGroup;
 			children = (
-				C795A31F2245322800F233A4 /* Extensions */,
 				C795A30B22452E9200F233A4 /* MVP */,
 				C795A31C2245317E00F233A4 /* UI */,
 				C795A2F32245268800F233A4 /* ApplicationCoordinator */,
+				C795A31F2245322800F233A4 /* Extensions */,
 				C795A2C52245184C00F233A4 /* AppDelegate.swift */,
 				C795A2CC2245184E00F233A4 /* Assets.xcassets */,
 				C795A2D12245184E00F233A4 /* Info.plist */,
@@ -191,8 +191,8 @@
 			children = (
 				C795A2FD22452B0200F233A4 /* Protocols */,
 				C795A30522452C6D00F233A4 /* AppCoordinatorFactory.swift */,
-				C795A318224530B100F233A4 /* MainPresenterFactory.swift */,
 				C795A31A2245310200F233A4 /* MainModuleFactory.swift */,
+				C795A318224530B100F233A4 /* MainPresenterFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -220,10 +220,10 @@
 		C795A30B22452E9200F233A4 /* MVP */ = {
 			isa = PBXGroup;
 			children = (
-				C795A31322452F5600F233A4 /* Templates */,
-				C795A30E22452EB000F233A4 /* Presenters */,
-				C795A30D22452EA600F233A4 /* Views */,
 				C795A30C22452E9C00F233A4 /* Models */,
+				C795A30D22452EA600F233A4 /* Views */,
+				C795A30E22452EB000F233A4 /* Presenters */,
+				C795A31322452F5600F233A4 /* Templates */,
 			);
 			path = MVP;
 			sourceTree = "<group>";
@@ -270,9 +270,9 @@
 		C795A31D2245318800F233A4 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				C795A3222245328900F233A4 /* Storyboard.swift */,
 				C795A2CE2245184E00F233A4 /* LaunchScreen.storyboard */,
 				C795A2C92245184C00F233A4 /* Main.storyboard */,
-				C795A3222245328900F233A4 /* Storyboard.swift */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
