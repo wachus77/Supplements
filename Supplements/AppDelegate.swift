@@ -12,10 +12,25 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var rootController: UINavigationController? {
+        let rootVC = UIStoryboard(name: Storyboard.launch.rawValue, bundle: nil).instantiateViewController(withIdentifier: Storyboard.launch.rawValue)
+        let roortNavigationController = UINavigationController(rootViewController: rootVC)
+        roortNavigationController.isNavigationBarHidden = true
+        
+        window?.rootViewController = roortNavigationController
+        
+        return self.window?.rootViewController as? UINavigationController
+    }
+    
+    private lazy var appCoordinator: Coordinator? = makeCoordinator()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        appCoordinator?.start()
+        
         return true
     }
 
@@ -41,6 +56,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    private func makeCoordinator() -> Coordinator? {
+        guard let rootVC = rootController else { return nil }
+        return AppCoordinator(navigationController: rootVC)
+    }
 
 }
 
