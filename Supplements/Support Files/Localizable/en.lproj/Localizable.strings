@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Supplements
+
+  Created by Tomasz Iwaszek on 3/26/19.
+  Copyright © 2019 matchusolutions. All rights reserved.
+*/
+
+
+// MARK: - Main screen
+
+"MainView.comingSoon" = "Coming soon...";

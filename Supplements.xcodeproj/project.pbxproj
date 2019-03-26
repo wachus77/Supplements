@@ -51,6 +51,8 @@
 		C7FCE629224A313700610E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2CE2245184E00F233A4 /* LaunchScreen.storyboard */; };
 		C7FCE62A224A313700610E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C795A2CC2245184E00F233A4 /* Assets.xcassets */; };
 		C7FCE62B224A313700610E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2C92245184C00F233A4 /* Main.storyboard */; };
+		C7FCE638224A355200610E58 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7FCE63B224A355200610E58 /* Localizable.strings */; };
+		C7FCE639224A355200610E58 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7FCE63B224A355200610E58 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,7 @@
 		C795A3222245328900F233A4 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		C7FCE62F224A313700610E58 /* Supplements dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supplements dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FCE631224A32B700610E58 /* dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dev-Info.plist"; sourceTree = "<group>"; };
+		C7FCE63A224A355200610E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +166,7 @@
 				C795A30B22452E9200F233A4 /* MVP */,
 				C795A31C2245317E00F233A4 /* UI */,
 				C795A2F32245268800F233A4 /* ApplicationCoordinator */,
-				C795A31F2245322800F233A4 /* Extensions */,
+				C7FCE633224A34E200610E58 /* Support Files */,
 				C795A2C52245184C00F233A4 /* AppDelegate.swift */,
 				C795A2CC2245184E00F233A4 /* Assets.xcassets */,
 				C795A2D12245184E00F233A4 /* Info.plist */,
@@ -317,6 +320,23 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		C7FCE633224A34E200610E58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7FCE634224A350A00610E58 /* Localizable */,
+				C795A31F2245322800F233A4 /* Extensions */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		C7FCE634224A350A00610E58 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				C7FCE63B224A355200610E58 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -427,9 +447,9 @@
 			projectRoot = "";
 			targets = (
 				C795A2C12245184C00F233A4 /* Supplements */,
+				C7FCE613224A313700610E58 /* Supplements dev */,
 				C795A2D52245184E00F233A4 /* SupplementsTests */,
 				C795A2E02245184E00F233A4 /* SupplementsUITests */,
-				C7FCE613224A313700610E58 /* Supplements dev */,
 			);
 		};
 /* End PBXProject section */
@@ -440,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C795A2D02245184E00F233A4 /* LaunchScreen.storyboard in Resources */,
+				C7FCE638224A355200610E58 /* Localizable.strings in Resources */,
 				C795A2CD2245184E00F233A4 /* Assets.xcassets in Resources */,
 				C795A2CB2245184C00F233A4 /* Main.storyboard in Resources */,
 			);
@@ -464,6 +485,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7FCE629224A313700610E58 /* LaunchScreen.storyboard in Resources */,
+				C7FCE639224A355200610E58 /* Localizable.strings in Resources */,
 				C7FCE62A224A313700610E58 /* Assets.xcassets in Resources */,
 				C7FCE62B224A313700610E58 /* Main.storyboard in Resources */,
 			);
@@ -568,6 +590,14 @@
 				C795A2CF2245184E00F233A4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C7FCE63B224A355200610E58 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7FCE63A224A355200610E58 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
