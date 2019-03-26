@@ -53,6 +53,10 @@
 		C7FCE62B224A313700610E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2C92245184C00F233A4 /* Main.storyboard */; };
 		C7FCE638224A355200610E58 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7FCE63B224A355200610E58 /* Localizable.strings */; };
 		C7FCE639224A355200610E58 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7FCE63B224A355200610E58 /* Localizable.strings */; };
+		C7FCE63D224A363000610E58 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FCE63C224A363000610E58 /* Localizable.swift */; };
+		C7FCE63E224A363000610E58 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FCE63C224A363000610E58 /* Localizable.swift */; };
+		C7FCE640224A369100610E58 /* Localizable+UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FCE63F224A369100610E58 /* Localizable+UIView+Extensions.swift */; };
+		C7FCE641224A369100610E58 /* Localizable+UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FCE63F224A369100610E58 /* Localizable+UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +109,8 @@
 		C7FCE62F224A313700610E58 /* Supplements dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supplements dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FCE631224A32B700610E58 /* dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dev-Info.plist"; sourceTree = "<group>"; };
 		C7FCE63A224A355200610E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C7FCE63C224A363000610E58 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		C7FCE63F224A369100610E58 /* Localizable+UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Localizable+UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +339,8 @@
 			isa = PBXGroup;
 			children = (
 				C7FCE63B224A355200610E58 /* Localizable.strings */,
+				C7FCE63C224A363000610E58 /* Localizable.swift */,
+				C7FCE63F224A369100610E58 /* Localizable+UIView+Extensions.swift */,
 			);
 			path = Localizable;
 			sourceTree = "<group>";
@@ -501,6 +509,7 @@
 				C795A3172245304300F233A4 /* MainPresenterFactoryProtocol.swift in Sources */,
 				C795A2C62245184C00F233A4 /* AppDelegate.swift in Sources */,
 				C795A31022452ED000F233A4 /* MainViewController.swift in Sources */,
+				C7FCE640224A369100610E58 /* Localizable+UIView+Extensions.swift in Sources */,
 				C795A30222452B7300F233A4 /* MainCoordinatorOutputProtocol.swift in Sources */,
 				C795A3212245325C00F233A4 /* UIViewController+Extensions.swift in Sources */,
 				C795A30822452CF000F233A4 /* MainCoordinator.swift in Sources */,
@@ -511,6 +520,7 @@
 				C795A31222452F0400F233A4 /* MainPresenter.swift in Sources */,
 				C795A2F5224526B200F233A4 /* Coordinator.swift in Sources */,
 				C795A31522452F6C00F233A4 /* MainTemplate.swift in Sources */,
+				C7FCE63D224A363000610E58 /* Localizable.swift in Sources */,
 				C795A319224530B100F233A4 /* MainPresenterFactory.swift in Sources */,
 				C795A2F9224527CA00F233A4 /* BaseCoordinator.swift in Sources */,
 				C795A30A22452E5800F233A4 /* MainFactoryProtocol.swift in Sources */,
@@ -542,6 +552,7 @@
 				C7FCE615224A313700610E58 /* MainPresenterFactoryProtocol.swift in Sources */,
 				C7FCE616224A313700610E58 /* AppDelegate.swift in Sources */,
 				C7FCE617224A313700610E58 /* MainViewController.swift in Sources */,
+				C7FCE641224A369100610E58 /* Localizable+UIView+Extensions.swift in Sources */,
 				C7FCE618224A313700610E58 /* MainCoordinatorOutputProtocol.swift in Sources */,
 				C7FCE619224A313700610E58 /* UIViewController+Extensions.swift in Sources */,
 				C7FCE61A224A313700610E58 /* MainCoordinator.swift in Sources */,
@@ -552,6 +563,7 @@
 				C7FCE61F224A313700610E58 /* MainPresenter.swift in Sources */,
 				C7FCE620224A313700610E58 /* Coordinator.swift in Sources */,
 				C7FCE621224A313700610E58 /* MainTemplate.swift in Sources */,
+				C7FCE63E224A363000610E58 /* Localizable.swift in Sources */,
 				C7FCE622224A313700610E58 /* MainPresenterFactory.swift in Sources */,
 				C7FCE623224A313700610E58 /* BaseCoordinator.swift in Sources */,
 				C7FCE624224A313700610E58 /* MainFactoryProtocol.swift in Sources */,
