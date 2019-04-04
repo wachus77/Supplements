@@ -20,13 +20,13 @@ extension BaseCoordinator {
         childCoordinators.append(coordinator)
     }
     
-    func removeCoordinator(_ coordiantor: Coordinator?) {
+    func removeCoordinator(_ coordinator: Coordinator?) {
         guard
-            let coordiantor = coordiantor,
+            let coordinator = coordinator,
             childCoordinators.isEmpty == false
             else { return }
         
-        for (index, coord) in childCoordinators.enumerated() where coord === coordiantor {
+        for (index, coord) in childCoordinators.enumerated() where coord === coordinator {
             childCoordinators.remove(at: index)
         }
     }
