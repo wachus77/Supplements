@@ -9,4 +9,4 @@
 
 // MARK: - Main screen
 
-"MainScreen.comingSoon" = "Coming soon...";
+comingSoon = "Coming soon...";

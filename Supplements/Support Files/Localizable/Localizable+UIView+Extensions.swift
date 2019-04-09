@@ -10,57 +10,35 @@ import UIKit
 
 extension UIView {
     
-    @IBInspectable var localizedText: String {
+    @IBInspectable var localizableTableNameForText: String {
         get {
-            return self.localizedText
+            return self.localizableTableNameForText
         }
         
-        set(text) {
-            let lText = NSLocalizedString(text, comment: "")
+        set(tableName) {
             switch self {
             case let label as UILabel:
-                label.text = lText
+                label.text = label.text?.localized(tableName: tableName)
             case let textField as UITextField:
-                textField.text = lText
+                textField.text = textField.text?.localized(tableName: tableName)
             case let button as UIButton:
-                button.setTitle(lText, for: .normal)
+                let buttonText = button.title(for: .normal)?.localized(tableName: tableName)
+                button.setTitle(buttonText, for: .normal)
             default:
                 break
             }
         }
     }
     
-    /**
-     Set this property if you need to localize titles in UISegmentedControl
-     */
-    @objc var localizedTexts: [String] {
+    @IBInspectable var localizableTableNameForPlaceholder: String {
         get {
-            return self.localizedTexts
+            return self.localizableTableNameForPlaceholder
         }
         
-        set(texts) {
-            switch self {
-            case let segmentedControl as UISegmentedControl:
-                for (index, text) in texts.enumerated() {
-                    let lText = NSLocalizedString(text, comment: "")
-                    segmentedControl.setTitle(lText, forSegmentAt: index)
-                }
-            default:
-                break
-            }
-        }
-    }
-    
-    @IBInspectable var localizedPlaceholderText: String {
-        get {
-            return self.localizedPlaceholderText
-        }
-        
-        set(text) {
-            let lText = NSLocalizedString(text, comment: "")
+        set(tableName) {
             switch self {
             case let textField as UITextField:
-                textField.placeholder = lText
+                textField.placeholder = textField.placeholder?.localized(tableName: tableName)
             default:
                 break
             }
