@@ -8,6 +8,6 @@
 
 import UIKit
 
-protocol AppCoordinatorFactoryProtocol {
+protocol CoordinatorFactoryProtocol {
     func makeMainCoordinator(router: Router) -> Coordinator & MainCoordinatorOutputProtocol
 }

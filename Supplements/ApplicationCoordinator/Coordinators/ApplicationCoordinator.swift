@@ -8,13 +8,14 @@
 
 import UIKit
 
-class AppCoordinator: BaseCoordinator {
-    private var router: Router
-    private let coordinatorFactory: AppCoordinatorFactoryProtocol
+final class ApplicationCoordinator: BaseCoordinator {
     
-    init(router: Router) {
-        coordinatorFactory = AppCoordinatorFactory()
+    private let coordinatorFactory: CoordinatorFactoryProtocol
+    private let router: Router
+    
+    init(router: Router, coordinatorFactory: CoordinatorFactoryProtocol) {
         self.router = router
+        self.coordinatorFactory = coordinatorFactory
     }
     
     override func start() {

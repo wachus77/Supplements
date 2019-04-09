@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MainPresenterFactory: MainPresenterFactoryProtocol {
+class PresenterFactory: MainPresenterFactoryProtocol {
     func makeMainPresenter(view: MainViewProtocol, delegate: MainViewDelegate) -> MainPresenterProtocol {
         return MainPresenter(view: view, delegate: delegate)
     }

@@ -6,6 +6,6 @@
 //  Copyright © 2019 matchusolutions. All rights reserved.
 //
 
-protocol MainFactoryProtocol {
+protocol MainModuleFactoryProtocol {
     func makeMainOutput() -> MainViewController
 }

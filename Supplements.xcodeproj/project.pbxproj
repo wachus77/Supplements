@@ -15,19 +15,19 @@
 		C795A2E62245184E00F233A4 /* SupplementsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2E52245184E00F233A4 /* SupplementsUITests.swift */; };
 		C795A2F5224526B200F233A4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2F4224526B200F233A4 /* Coordinator.swift */; };
 		C795A2F9224527CA00F233A4 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2F8224527CA00F233A4 /* BaseCoordinator.swift */; };
-		C795A2FB22452A6D00F233A4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2FA22452A6D00F233A4 /* AppCoordinator.swift */; };
-		C795A2FF22452B1E00F233A4 /* AppCoordinatorFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2FE22452B1E00F233A4 /* AppCoordinatorFactoryProtocol.swift */; };
+		C795A2FB22452A6D00F233A4 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2FA22452A6D00F233A4 /* ApplicationCoordinator.swift */; };
+		C795A2FF22452B1E00F233A4 /* CoordinatorFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2FE22452B1E00F233A4 /* CoordinatorFactoryProtocol.swift */; };
 		C795A30222452B7300F233A4 /* MainCoordinatorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30122452B7300F233A4 /* MainCoordinatorOutputProtocol.swift */; };
 		C795A30422452BB400F233A4 /* CoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30322452BB400F233A4 /* CoordinatorOutput.swift */; };
-		C795A30622452C6D00F233A4 /* AppCoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30522452C6D00F233A4 /* AppCoordinatorFactory.swift */; };
+		C795A30622452C6D00F233A4 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30522452C6D00F233A4 /* CoordinatorFactory.swift */; };
 		C795A30822452CF000F233A4 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30722452CF000F233A4 /* MainCoordinator.swift */; };
-		C795A30A22452E5800F233A4 /* MainFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30922452E5800F233A4 /* MainFactoryProtocol.swift */; };
+		C795A30A22452E5800F233A4 /* MainModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30922452E5800F233A4 /* MainModuleFactoryProtocol.swift */; };
 		C795A31022452ED000F233A4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30F22452ED000F233A4 /* MainViewController.swift */; };
 		C795A31222452F0400F233A4 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A31122452F0400F233A4 /* MainPresenter.swift */; };
 		C795A31522452F6C00F233A4 /* MainTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A31422452F6C00F233A4 /* MainTemplate.swift */; };
 		C795A3172245304300F233A4 /* MainPresenterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */; };
-		C795A319224530B100F233A4 /* MainPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A318224530B100F233A4 /* MainPresenterFactory.swift */; };
-		C795A31B2245310200F233A4 /* MainModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A31A2245310200F233A4 /* MainModuleFactory.swift */; };
+		C795A319224530B100F233A4 /* PresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A318224530B100F233A4 /* PresenterFactory.swift */; };
+		C795A31B2245310200F233A4 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A31A2245310200F233A4 /* ModuleFactory.swift */; };
 		C795A3212245325C00F233A4 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3202245325C00F233A4 /* UIViewController+Extensions.swift */; };
 		C795A3232245328900F233A4 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3222245328900F233A4 /* Storyboard.swift */; };
 		C7BB3745225CB4EB0099EB1B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3744225CB4EB0099EB1B /* String+Extensions.swift */; };
@@ -44,16 +44,16 @@
 		C7FCE618224A313700610E58 /* MainCoordinatorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30122452B7300F233A4 /* MainCoordinatorOutputProtocol.swift */; };
 		C7FCE619224A313700610E58 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3202245325C00F233A4 /* UIViewController+Extensions.swift */; };
 		C7FCE61A224A313700610E58 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30722452CF000F233A4 /* MainCoordinator.swift */; };
-		C7FCE61B224A313700610E58 /* MainModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A31A2245310200F233A4 /* MainModuleFactory.swift */; };
-		C7FCE61C224A313700610E58 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2FA22452A6D00F233A4 /* AppCoordinator.swift */; };
-		C7FCE61D224A313700610E58 /* AppCoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30522452C6D00F233A4 /* AppCoordinatorFactory.swift */; };
-		C7FCE61E224A313700610E58 /* AppCoordinatorFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2FE22452B1E00F233A4 /* AppCoordinatorFactoryProtocol.swift */; };
+		C7FCE61B224A313700610E58 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A31A2245310200F233A4 /* ModuleFactory.swift */; };
+		C7FCE61C224A313700610E58 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2FA22452A6D00F233A4 /* ApplicationCoordinator.swift */; };
+		C7FCE61D224A313700610E58 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30522452C6D00F233A4 /* CoordinatorFactory.swift */; };
+		C7FCE61E224A313700610E58 /* CoordinatorFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2FE22452B1E00F233A4 /* CoordinatorFactoryProtocol.swift */; };
 		C7FCE61F224A313700610E58 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A31122452F0400F233A4 /* MainPresenter.swift */; };
 		C7FCE620224A313700610E58 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2F4224526B200F233A4 /* Coordinator.swift */; };
 		C7FCE621224A313700610E58 /* MainTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A31422452F6C00F233A4 /* MainTemplate.swift */; };
-		C7FCE622224A313700610E58 /* MainPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A318224530B100F233A4 /* MainPresenterFactory.swift */; };
+		C7FCE622224A313700610E58 /* PresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A318224530B100F233A4 /* PresenterFactory.swift */; };
 		C7FCE623224A313700610E58 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2F8224527CA00F233A4 /* BaseCoordinator.swift */; };
-		C7FCE624224A313700610E58 /* MainFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30922452E5800F233A4 /* MainFactoryProtocol.swift */; };
+		C7FCE624224A313700610E58 /* MainModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30922452E5800F233A4 /* MainModuleFactoryProtocol.swift */; };
 		C7FCE625224A313700610E58 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3222245328900F233A4 /* Storyboard.swift */; };
 		C7FCE626224A313700610E58 /* CoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30322452BB400F233A4 /* CoordinatorOutput.swift */; };
 		C7FCE629224A313700610E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2CE2245184E00F233A4 /* LaunchScreen.storyboard */; };
@@ -99,19 +99,19 @@
 		C795A2E72245184E00F233A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C795A2F4224526B200F233A4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		C795A2F8224527CA00F233A4 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
-		C795A2FA22452A6D00F233A4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		C795A2FE22452B1E00F233A4 /* AppCoordinatorFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorFactoryProtocol.swift; sourceTree = "<group>"; };
+		C795A2FA22452A6D00F233A4 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		C795A2FE22452B1E00F233A4 /* CoordinatorFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactoryProtocol.swift; sourceTree = "<group>"; };
 		C795A30122452B7300F233A4 /* MainCoordinatorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorOutputProtocol.swift; sourceTree = "<group>"; };
 		C795A30322452BB400F233A4 /* CoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorOutput.swift; sourceTree = "<group>"; };
-		C795A30522452C6D00F233A4 /* AppCoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorFactory.swift; sourceTree = "<group>"; };
+		C795A30522452C6D00F233A4 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
 		C795A30722452CF000F233A4 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		C795A30922452E5800F233A4 /* MainFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFactoryProtocol.swift; sourceTree = "<group>"; };
+		C795A30922452E5800F233A4 /* MainModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleFactoryProtocol.swift; sourceTree = "<group>"; };
 		C795A30F22452ED000F233A4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C795A31122452F0400F233A4 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		C795A31422452F6C00F233A4 /* MainTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTemplate.swift; sourceTree = "<group>"; };
 		C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterFactoryProtocol.swift; sourceTree = "<group>"; };
-		C795A318224530B100F233A4 /* MainPresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterFactory.swift; sourceTree = "<group>"; };
-		C795A31A2245310200F233A4 /* MainModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleFactory.swift; sourceTree = "<group>"; };
+		C795A318224530B100F233A4 /* PresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterFactory.swift; sourceTree = "<group>"; };
+		C795A31A2245310200F233A4 /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
 		C795A3202245325C00F233A4 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		C795A3222245328900F233A4 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		C7BB3744225CB4EB0099EB1B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
@@ -238,7 +238,7 @@
 			children = (
 				C795A30022452B3D00F233A4 /* Outputs */,
 				C795A2F8224527CA00F233A4 /* BaseCoordinator.swift */,
-				C795A2FA22452A6D00F233A4 /* AppCoordinator.swift */,
+				C795A2FA22452A6D00F233A4 /* ApplicationCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -247,9 +247,9 @@
 			isa = PBXGroup;
 			children = (
 				C795A2FD22452B0200F233A4 /* Protocols */,
-				C795A30522452C6D00F233A4 /* AppCoordinatorFactory.swift */,
-				C795A31A2245310200F233A4 /* MainModuleFactory.swift */,
-				C795A318224530B100F233A4 /* MainPresenterFactory.swift */,
+				C795A30522452C6D00F233A4 /* CoordinatorFactory.swift */,
+				C795A31A2245310200F233A4 /* ModuleFactory.swift */,
+				C795A318224530B100F233A4 /* PresenterFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -257,9 +257,9 @@
 		C795A2FD22452B0200F233A4 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				C795A2FE22452B1E00F233A4 /* AppCoordinatorFactoryProtocol.swift */,
-				C795A30922452E5800F233A4 /* MainFactoryProtocol.swift */,
-				C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */,
+				C795A2FE22452B1E00F233A4 /* CoordinatorFactoryProtocol.swift */,
+				C7BB3755225CC06F0099EB1B /* Presenters */,
+				C7BB3754225CC0620099EB1B /* Modules */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -351,6 +351,22 @@
 				C7BB3751225CB8D00099EB1B /* RouterImp.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		C7BB3754225CC0620099EB1B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C795A30922452E5800F233A4 /* MainModuleFactoryProtocol.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C7BB3755225CC06F0099EB1B /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */,
+			);
+			path = Presenters;
 			sourceTree = "<group>";
 		};
 		C7FCE633224A34E200610E58 /* Support Files */ = {
@@ -548,17 +564,17 @@
 				C795A3212245325C00F233A4 /* UIViewController+Extensions.swift in Sources */,
 				C7BB3752225CB8D10099EB1B /* RouterImp.swift in Sources */,
 				C795A30822452CF000F233A4 /* MainCoordinator.swift in Sources */,
-				C795A31B2245310200F233A4 /* MainModuleFactory.swift in Sources */,
-				C795A2FB22452A6D00F233A4 /* AppCoordinator.swift in Sources */,
-				C795A30622452C6D00F233A4 /* AppCoordinatorFactory.swift in Sources */,
-				C795A2FF22452B1E00F233A4 /* AppCoordinatorFactoryProtocol.swift in Sources */,
+				C795A31B2245310200F233A4 /* ModuleFactory.swift in Sources */,
+				C795A2FB22452A6D00F233A4 /* ApplicationCoordinator.swift in Sources */,
+				C795A30622452C6D00F233A4 /* CoordinatorFactory.swift in Sources */,
+				C795A2FF22452B1E00F233A4 /* CoordinatorFactoryProtocol.swift in Sources */,
 				C795A31222452F0400F233A4 /* MainPresenter.swift in Sources */,
 				C795A2F5224526B200F233A4 /* Coordinator.swift in Sources */,
 				C795A31522452F6C00F233A4 /* MainTemplate.swift in Sources */,
 				C7FCE63D224A363000610E58 /* Localizable.swift in Sources */,
-				C795A319224530B100F233A4 /* MainPresenterFactory.swift in Sources */,
+				C795A319224530B100F233A4 /* PresenterFactory.swift in Sources */,
 				C795A2F9224527CA00F233A4 /* BaseCoordinator.swift in Sources */,
-				C795A30A22452E5800F233A4 /* MainFactoryProtocol.swift in Sources */,
+				C795A30A22452E5800F233A4 /* MainModuleFactoryProtocol.swift in Sources */,
 				C795A3232245328900F233A4 /* Storyboard.swift in Sources */,
 				C795A30422452BB400F233A4 /* CoordinatorOutput.swift in Sources */,
 			);
@@ -595,17 +611,17 @@
 				C7FCE619224A313700610E58 /* UIViewController+Extensions.swift in Sources */,
 				C7BB3753225CB8D10099EB1B /* RouterImp.swift in Sources */,
 				C7FCE61A224A313700610E58 /* MainCoordinator.swift in Sources */,
-				C7FCE61B224A313700610E58 /* MainModuleFactory.swift in Sources */,
-				C7FCE61C224A313700610E58 /* AppCoordinator.swift in Sources */,
-				C7FCE61D224A313700610E58 /* AppCoordinatorFactory.swift in Sources */,
-				C7FCE61E224A313700610E58 /* AppCoordinatorFactoryProtocol.swift in Sources */,
+				C7FCE61B224A313700610E58 /* ModuleFactory.swift in Sources */,
+				C7FCE61C224A313700610E58 /* ApplicationCoordinator.swift in Sources */,
+				C7FCE61D224A313700610E58 /* CoordinatorFactory.swift in Sources */,
+				C7FCE61E224A313700610E58 /* CoordinatorFactoryProtocol.swift in Sources */,
 				C7FCE61F224A313700610E58 /* MainPresenter.swift in Sources */,
 				C7FCE620224A313700610E58 /* Coordinator.swift in Sources */,
 				C7FCE621224A313700610E58 /* MainTemplate.swift in Sources */,
 				C7FCE63E224A363000610E58 /* Localizable.swift in Sources */,
-				C7FCE622224A313700610E58 /* MainPresenterFactory.swift in Sources */,
+				C7FCE622224A313700610E58 /* PresenterFactory.swift in Sources */,
 				C7FCE623224A313700610E58 /* BaseCoordinator.swift in Sources */,
-				C7FCE624224A313700610E58 /* MainFactoryProtocol.swift in Sources */,
+				C7FCE624224A313700610E58 /* MainModuleFactoryProtocol.swift in Sources */,
 				C7FCE625224A313700610E58 /* Storyboard.swift in Sources */,
 				C7FCE626224A313700610E58 /* CoordinatorOutput.swift in Sources */,
 			);

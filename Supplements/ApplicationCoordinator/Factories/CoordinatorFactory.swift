@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AppCoordinatorFactory: AppCoordinatorFactoryProtocol {
+final class CoordinatorFactory: CoordinatorFactoryProtocol {
     func makeMainCoordinator(router: Router) -> Coordinator & MainCoordinatorOutputProtocol {
         return MainCoordinator(router: router)
     }
