@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     private func makeCoordinator() -> Coordinator? {
         guard let rootVC = rootController else { return nil }
-        return AppCoordinator(navigationController: rootVC)
+        return AppCoordinator(router: RouterImp(rootController: rootVC))
     }
 
 }

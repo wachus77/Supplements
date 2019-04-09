@@ -9,5 +9,5 @@
 import UIKit
 
 protocol AppCoordinatorFactoryProtocol {
-    func makeMainCoordinator(router: UINavigationController) -> Coordinator & MainCoordinatorOutputProtocol
+    func makeMainCoordinator(router: Router) -> Coordinator & MainCoordinatorOutputProtocol
 }

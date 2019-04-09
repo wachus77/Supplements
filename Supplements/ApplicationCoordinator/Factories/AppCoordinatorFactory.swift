@@ -9,7 +9,7 @@
 import UIKit
 
 class AppCoordinatorFactory: AppCoordinatorFactoryProtocol {
-    func makeMainCoordinator(router: UINavigationController) -> Coordinator & MainCoordinatorOutputProtocol {
+    func makeMainCoordinator(router: Router) -> Coordinator & MainCoordinatorOutputProtocol {
         return MainCoordinator(router: router)
     }
 }

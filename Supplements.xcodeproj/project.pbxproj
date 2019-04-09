@@ -466,6 +466,9 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = C795A2C12245184C00F233A4;
 					};
+					C7FCE613224A313700610E58 = {
+						LastSwiftMigration = 1020;
+					};
 				};
 			};
 			buildConfigurationList = C795A2BD2245184C00F233A4 /* Build configuration list for PBXProject "Supplements" */;
@@ -904,7 +907,7 @@
 				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Supplements-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -923,7 +926,7 @@
 				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Supplements-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

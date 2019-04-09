@@ -12,10 +12,10 @@ class MainCoordinator: BaseCoordinator, MainCoordinatorOutputProtocol {
     var finishFlow: (CoordinatorOutput)?
     
     private let factory: MainFactoryProtocol
-    private let router: UINavigationController
+    private let router: Router
     private let presenterFactory: MainPresenterFactoryProtocol
     
-    init(router: UINavigationController) {
+    init(router: Router) {
         self.router = router
         presenterFactory = MainPresenterFactory()
         factory = MainModuleFactory()
@@ -31,7 +31,7 @@ class MainCoordinator: BaseCoordinator, MainCoordinatorOutputProtocol {
         
         mainOutput.presenter = presenter
         
-        router.setViewControllers([mainOutput], animated: false)
+        router.setRootModule(mainOutput.toPresent())
     }
     
 }

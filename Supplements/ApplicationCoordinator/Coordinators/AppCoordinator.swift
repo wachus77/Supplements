@@ -9,12 +9,12 @@
 import UIKit
 
 class AppCoordinator: BaseCoordinator {
-    private var navigationController: UINavigationController
+    private var router: Router
     private let coordinatorFactory: AppCoordinatorFactoryProtocol
     
-    init(navigationController: UINavigationController) {
+    init(router: Router) {
         coordinatorFactory = AppCoordinatorFactory()
-        self.navigationController = navigationController
+        self.router = router
     }
     
     override func start() {
@@ -22,7 +22,7 @@ class AppCoordinator: BaseCoordinator {
     }
     
     private func runMainFlow() {
-        var coordinator = coordinatorFactory.makeMainCoordinator(router: navigationController)
+        var coordinator = coordinatorFactory.makeMainCoordinator(router: router)
         
         coordinator.finishFlow = { [unowned self] coordinator in
             self.removeCoordinator(coordinator)
