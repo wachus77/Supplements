@@ -25,10 +25,10 @@ class AppCoordinator: BaseCoordinator {
         var coordinator = coordinatorFactory.makeMainCoordinator(router: router)
         
         coordinator.finishFlow = { [unowned self] coordinator in
-            self.removeCoordinator(coordinator)
+            self.removeDependency(coordinator)
         }
         
-        addCoordinator(coordinator)
+        addDependency(coordinator)
         
         coordinator.start()
     }

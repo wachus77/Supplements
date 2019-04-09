@@ -15,19 +15,26 @@ class BaseCoordinator: Coordinator {
 
 extension BaseCoordinator {
     
-    func addCoordinator(_ coordinator: Coordinator) {
-        for coord in childCoordinators where coord === coordinator { return }
+    func addDependency(_ coordinator: Coordinator) {
+        guard !childCoordinators.contains(where: { $0 === coordinator }) else { return }
         childCoordinators.append(coordinator)
     }
     
-    func removeCoordinator(_ coordinator: Coordinator?) {
+    func removeDependency(_ coordinator: Coordinator?) {
         guard
-            let coordinator = coordinator,
-            childCoordinators.isEmpty == false
+            childCoordinators.isEmpty == false,
+            let coordinator = coordinator
             else { return }
         
-        for (index, coord) in childCoordinators.enumerated() where coord === coordinator {
+        // Clear child-coordinators recursively
+        if let coordinator = coordinator as? BaseCoordinator, !coordinator.childCoordinators.isEmpty {
+            coordinator.childCoordinators
+                .filter({ $0 !== coordinator })
+                .forEach({ coordinator.removeDependency($0) })
+        }
+        for (index, element) in childCoordinators.enumerated() where element === coordinator {
             childCoordinators.remove(at: index)
+            break
         }
     }
 }
