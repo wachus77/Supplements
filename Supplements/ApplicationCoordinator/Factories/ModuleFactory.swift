@@ -13,4 +13,5 @@ class ModuleFactory: MainModuleFactoryProtocol {
     func makeMainOutput() -> MainViewController {
         return MainViewController.controllerFromStoryboard(.main)
     }
+    
 }

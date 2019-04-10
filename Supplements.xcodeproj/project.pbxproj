@@ -220,25 +220,17 @@
 				C7BB374A225CB8170099EB1B /* Router */,
 				C795A2F72245279700F233A4 /* Coordinators */,
 				C795A2FC22452AE200F233A4 /* Factories */,
-				C795A2F6224526C700F233A4 /* Protocols */,
 			);
 			path = ApplicationCoordinator;
-			sourceTree = "<group>";
-		};
-		C795A2F6224526C700F233A4 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				C795A2F4224526B200F233A4 /* Coordinator.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		C795A2F72245279700F233A4 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				C795A30022452B3D00F233A4 /* Outputs */,
-				C795A2F8224527CA00F233A4 /* BaseCoordinator.swift */,
-				C795A2FA22452A6D00F233A4 /* ApplicationCoordinator.swift */,
+				C7BB3757225DF4000099EB1B /* Protocols */,
+				C795A30022452B3D00F233A4 /* Outputs Protocols */,
+				C7BB3756225DF3250099EB1B /* Base */,
+				C795A30722452CF000F233A4 /* MainCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -264,14 +256,13 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		C795A30022452B3D00F233A4 /* Outputs */ = {
+		C795A30022452B3D00F233A4 /* Outputs Protocols */ = {
 			isa = PBXGroup;
 			children = (
 				C795A30322452BB400F233A4 /* CoordinatorOutput.swift */,
 				C795A30122452B7300F233A4 /* MainCoordinatorOutputProtocol.swift */,
-				C795A30722452CF000F233A4 /* MainCoordinator.swift */,
 			);
-			path = Outputs;
+			path = "Outputs Protocols";
 			sourceTree = "<group>";
 		};
 		C795A30B22452E9200F233A4 /* MVP */ = {
@@ -346,8 +337,8 @@
 		C7BB374A225CB8170099EB1B /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				C7BB374B225CB8380099EB1B /* Router.swift */,
 				C7BB374E225CB8750099EB1B /* Presentable.swift */,
+				C7BB374B225CB8380099EB1B /* Router.swift */,
 				C7BB3751225CB8D00099EB1B /* RouterImp.swift */,
 			);
 			path = Router;
@@ -367,6 +358,23 @@
 				C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */,
 			);
 			path = Presenters;
+			sourceTree = "<group>";
+		};
+		C7BB3756225DF3250099EB1B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C795A2F8224527CA00F233A4 /* BaseCoordinator.swift */,
+				C795A2FA22452A6D00F233A4 /* ApplicationCoordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C7BB3757225DF4000099EB1B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C795A2F4224526B200F233A4 /* Coordinator.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		C7FCE633224A34E200610E58 /* Support Files */ = {
