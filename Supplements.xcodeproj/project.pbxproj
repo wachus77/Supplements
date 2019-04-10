@@ -337,8 +337,7 @@
 		C7BB374A225CB8170099EB1B /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				C7BB374E225CB8750099EB1B /* Presentable.swift */,
-				C7BB374B225CB8380099EB1B /* Router.swift */,
+				C7BB3758225E2F4A0099EB1B /* Protocols */,
 				C7BB3751225CB8D00099EB1B /* RouterImp.swift */,
 			);
 			path = Router;
@@ -373,6 +372,15 @@
 			isa = PBXGroup;
 			children = (
 				C795A2F4224526B200F233A4 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C7BB3758225E2F4A0099EB1B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C7BB374E225CB8750099EB1B /* Presentable.swift */,
+				C7BB374B225CB8380099EB1B /* Router.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";

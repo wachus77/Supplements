@@ -8,5 +8,6 @@
 
 import Foundation
 
-protocol MainCoordinatorOutputProtocol: CoordinatorOutputProtocol {
+protocol MainCoordinatorOutputProtocol {
+    var finishFlow : (() -> Void)? { get set }
 }

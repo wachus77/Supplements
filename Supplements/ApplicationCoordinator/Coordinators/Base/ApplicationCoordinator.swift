@@ -25,8 +25,9 @@ final class ApplicationCoordinator: BaseCoordinator {
     private func runMainFlow() {
         var coordinator = coordinatorFactory.makeMainCoordinator(router: router)
         
-        coordinator.finishFlow = { [unowned self] coordinator in
-            self.removeDependency(coordinator)
+        coordinator.finishFlow = { [weak self, weak coordinator] in
+            guard let strongSelf = self, let coordinator = coordinator else { return }
+            strongSelf.removeDependency(coordinator)
         }
         
         addDependency(coordinator)

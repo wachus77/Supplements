@@ -9,7 +9,7 @@
 import UIKit
 
 class MainCoordinator: BaseCoordinator, MainCoordinatorOutputProtocol {
-    var finishFlow: (CoordinatorOutput)?
+    var finishFlow: (() -> Void)?
     
     private let factory: MainModuleFactoryProtocol
     private let coordinatorFactory: CoordinatorFactoryProtocol
