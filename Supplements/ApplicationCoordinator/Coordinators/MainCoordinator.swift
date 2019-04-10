@@ -12,13 +12,15 @@ class MainCoordinator: BaseCoordinator, MainCoordinatorOutputProtocol {
     var finishFlow: (CoordinatorOutput)?
     
     private let factory: MainModuleFactoryProtocol
+    private let coordinatorFactory: CoordinatorFactoryProtocol
     private let router: Router
     private let presenterFactory: MainPresenterFactoryProtocol
     
-    init(router: Router) {
+    init(with factory: MainModuleFactoryProtocol, coordinatorFactory: CoordinatorFactoryProtocol, presenterFactory: MainPresenterFactoryProtocol, router: Router) {
+        self.factory = factory
+        self.coordinatorFactory = coordinatorFactory
+        self.presenterFactory = presenterFactory
         self.router = router
-        presenterFactory = PresenterFactory()
-        factory = ModuleFactory()
     }
     
     override func start() {

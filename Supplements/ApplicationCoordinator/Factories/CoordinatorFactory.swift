@@ -11,7 +11,7 @@ import UIKit
 final class CoordinatorFactory: CoordinatorFactoryProtocol {
     
     func makeMainCoordinator(router: Router) -> Coordinator & MainCoordinatorOutputProtocol {
-        return MainCoordinator(router: router)
+        return MainCoordinator(with: ModuleFactory(), coordinatorFactory: CoordinatorFactory(), presenterFactory: PresenterFactory(), router: router)
     }
     
 }
