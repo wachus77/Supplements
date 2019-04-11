@@ -9,8 +9,6 @@
 import UIKit
 import liquid_swipe
 
-let onRedColor = UIColor.init(red: 242, green: 96, blue: 96, alpha: 1)
-
 class OnboardingViewController: LiquidSwipeContainerController, LiquidSwipeContainerDataSource {
     var presenter: OnboardingPresenterProtocol!
     
