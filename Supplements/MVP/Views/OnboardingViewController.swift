@@ -9,7 +9,11 @@
 import UIKit
 
 class OnboardingViewController: UIViewController {
-    var presenter: MainPresenterProtocol!
+    var presenter: OnboardingPresenterProtocol!
+    
+    @IBAction func closeTapped(_ sender: Any) {
+        presenter.closeOnboarding()
+    }
 }
 
-extension OnboardingViewController: MainViewProtocol {}
+extension OnboardingViewController: OnboardingViewProtocol {}

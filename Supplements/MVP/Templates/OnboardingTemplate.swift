@@ -13,4 +13,5 @@ protocol OnboardingViewProtocol: class {
 
 protocol OnboardingPresenterProtocol: class {
     init(view: OnboardingViewProtocol, delegate: OnboardingViewDelegate)
+    func closeOnboarding()
 }

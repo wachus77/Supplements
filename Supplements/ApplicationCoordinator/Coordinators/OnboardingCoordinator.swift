@@ -27,10 +27,17 @@ class OnboardingCoordinator: BaseCoordinator, OnboardingCoordinatorOutput {
     }
     
     func showOnboarding() {
-        let onboardingModule = factory.makeOnboardingOutput()
-        /*onboardingModule.onFinish = { [weak self] in
-            self?.finishFlow?()
-        }*/
-        router.setRootModule(onboardingModule.toPresent())
+        let onboardingOutput = factory.makeOnboardingOutput()
+        let presenter = presenterFactory.makeOnboardingPresenter(view: onboardingOutput, delegate: self)
+        onboardingOutput.presenter = presenter
+        router.setRootModule(onboardingOutput.toPresent())
     }
+}
+
+extension OnboardingCoordinator: OnboardingViewDelegate {
+    
+    func finish() {
+        self.finishFlow?()
+    }
+    
 }

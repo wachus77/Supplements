@@ -9,6 +9,7 @@
 import Foundation
 
 protocol OnboardingViewDelegate: class {
+    func finish()
 }
 
 class OnboardingPresenter: OnboardingPresenterProtocol {
@@ -18,5 +19,9 @@ class OnboardingPresenter: OnboardingPresenterProtocol {
     required init(view: OnboardingViewProtocol, delegate: OnboardingViewDelegate) {
         self.view = view
         self.delegate = delegate
+    }
+    
+    func closeOnboarding() {
+        delegate.finish()
     }
 }
