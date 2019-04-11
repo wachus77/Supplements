@@ -7,12 +7,43 @@
 //
 
 import UIKit
+import liquid_swipe
 
-class OnboardingViewController: UIViewController {
+class OnboardingViewController: LiquidSwipeContainerController, LiquidSwipeContainerDataSource {
     var presenter: OnboardingPresenterProtocol!
     
-    @IBAction func closeTapped(_ sender: Any) {
-        presenter.closeOnboarding()
+    var viewControllers: [OnboardingContentViewController] = {
+        let firstPage = OnboardingContentViewController.controllerFromStoryboard(.onboarding)
+        firstPage.backgroundColor = UIColor.red
+        firstPage.index = 0
+        
+        let secondPage = OnboardingContentViewController.controllerFromStoryboard(.onboarding)
+        secondPage.backgroundColor = UIColor.blue
+        secondPage.index = 1
+        
+        let thirdPage = OnboardingContentViewController.controllerFromStoryboard(.onboarding)
+        thirdPage.backgroundColor = UIColor.red
+        thirdPage.index = 2
+        
+        var controllers: [OnboardingContentViewController] = [firstPage, secondPage, thirdPage]
+        return controllers
+    }()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        datasource = self
+        
+        viewControllers.forEach { (controller) in
+            controller.presenter = presenter
+        }
+    }
+    
+    func numberOfControllersInLiquidSwipeContainer(_ liquidSwipeContainer: LiquidSwipeContainerController) -> Int {
+        return viewControllers.count
+    }
+    
+    func liquidSwipeContainer(_ liquidSwipeContainer: LiquidSwipeContainerController, viewControllerAtIndex index: Int) -> UIViewController {
+        return viewControllers[index]
     }
 }
 

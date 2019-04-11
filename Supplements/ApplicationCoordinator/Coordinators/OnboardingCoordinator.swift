@@ -30,7 +30,7 @@ class OnboardingCoordinator: BaseCoordinator, OnboardingCoordinatorOutput {
         let onboardingOutput = factory.makeOnboardingOutput()
         let presenter = presenterFactory.makeOnboardingPresenter(view: onboardingOutput, delegate: self)
         onboardingOutput.presenter = presenter
-        router.setRootModule(onboardingOutput.toPresent())
+        router.setRootModule(onboardingOutput.toPresent(), hideBar: true)
     }
 }
 

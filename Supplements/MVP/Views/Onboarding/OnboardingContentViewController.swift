@@ -22,9 +22,9 @@ class OnboardingContentViewController: UIViewController {
     
     var backgroundColor: UIColor = .red
     
-    var titleText: String = ""
+    var titleText: String = "Supplements"
     
-    var descriptionText: String = ""
+    var descriptionText: String = "great creatine"
     
     var contentImage: UIImage = UIImage(named: "supple_wall")!
     
