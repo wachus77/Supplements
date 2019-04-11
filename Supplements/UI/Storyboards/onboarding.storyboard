@@ -17,27 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="aAo-It-1oP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="onboarding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOT-ZM-CLc">
-                                <rect key="frame" x="186" y="438" width="88" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Hj-y5-FIG">
-                                <rect key="frame" x="192" y="832" width="30" height="30"/>
-                                <state key="normal" title="skip"/>
-                                <connections>
-                                    <action selector="closeTapped:" destination="OTj-CL-wau" eventType="touchUpInside" id="Wyv-Wq-gb7"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="2Hj-y5-FIG" firstAttribute="centerX" secondItem="aAo-It-1oP" secondAttribute="centerX" id="jvh-QO-wgI"/>
-                            <constraint firstItem="2Hj-y5-FIG" firstAttribute="bottom" secondItem="OYr-gB-5Dy" secondAttribute="bottom" id="pm7-oX-IRF"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="OYr-gB-5Dy"/>
                     </view>
                 </viewController>
