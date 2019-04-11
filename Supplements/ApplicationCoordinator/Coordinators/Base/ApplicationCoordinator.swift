@@ -7,8 +7,17 @@
 //
 
 import UIKit
+import SwiftyUserDefaults
 
-fileprivate var onboardingWasShown = false
+fileprivate var onboardingWasShown: Bool {
+    get {
+        return Defaults[.onboardingWasShown]
+    }
+    
+    set(value) {
+        Defaults[.onboardingWasShown] = value
+    }
+}
 
 fileprivate enum LaunchInstructor {
     case main, onboarding

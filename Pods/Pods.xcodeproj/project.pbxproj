@@ -54,12 +54,12 @@
 		531AA6076ADDEB5632F4889982344572 /* Defaults+Subscripts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Subscripts.swift"; path = "Sources/Defaults+Subscripts.swift"; sourceTree = "<group>"; };
 		69BA7ED485BCD30CA288FED797AC7FAF /* SwiftyUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-prefix.pch"; sourceTree = "<group>"; };
 		76BF97F228DF738DDB99F0502616FA5D /* Pods-Supplements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supplements.debug.xcconfig"; sourceTree = "<group>"; };
-		7CEEB63B6DCE0A5E59EBAE72EBE204ED /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyUserDefaults.framework; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEEB63B6DCE0A5E59EBAE72EBE204ED /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E25A9ACC9A70D088505CF2FD961AF2A /* DefaultsSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsSerializable.swift; path = Sources/DefaultsSerializable.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E496915264B638F312F69DBBEE1245D /* Pods-Supplements-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Supplements-frameworks.sh"; sourceTree = "<group>"; };
 		A8E301D7C522FF9653041416D1829956 /* Pods-Supplements-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Supplements-umbrella.h"; sourceTree = "<group>"; };
-		C087C122FF60158D016B0CAED4F99587 /* Pods_Supplements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Supplements.framework; path = "Pods-Supplements.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C087C122FF60158D016B0CAED4F99587 /* Pods_Supplements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Supplements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E7912008BDEA9B07472D9E6091FC2B /* Pods-Supplements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supplements.release.xcconfig"; sourceTree = "<group>"; };
 		C986E1C96B5420A734F610578C96B10A /* SwiftyUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyUserDefaults-dummy.m"; sourceTree = "<group>"; };
 		CA9DE75FFF2BCD9D40562CEED8EDFA6D /* Pods-Supplements.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Supplements.modulemap"; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		D45FB3619A3B73CD94005B6D05C7AA15 /* Pods-Supplements dev-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Supplements dev-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4D4F54E77E17F10577674BA53B6F87A /* Pods-Supplements dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supplements dev.release.xcconfig"; sourceTree = "<group>"; };
 		D8D7B4A664A805D56A5F0BD495424E1F /* DefaultsSerializable+BuiltIns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DefaultsSerializable+BuiltIns.swift"; path = "Sources/DefaultsSerializable+BuiltIns.swift"; sourceTree = "<group>"; };
-		D91FA94C7ABE3142FC97FAE683C14413 /* Pods_Supplements_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Supplements_dev.framework; path = "Pods-Supplements dev.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91FA94C7ABE3142FC97FAE683C14413 /* Pods_Supplements_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Supplements_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2B851BA7B0C5B4B8B697421026106C /* Pods-Supplements dev.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Supplements dev.modulemap"; sourceTree = "<group>"; };
 		E0B2B6EF81C3D3301E20E99AA6C017F6 /* Pods-Supplements dev-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Supplements dev-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E4BD85A02210084FCE269797AC306EB2 /* Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Defaults.swift; path = Sources/Defaults.swift; sourceTree = "<group>"; };
@@ -137,7 +137,6 @@
 				152C3D01E8A6BFAD445830B856D44E71 /* OptionalType.swift */,
 				59EF0C0F423B3C3517333B8896344960 /* Support Files */,
 			);
-			name = SwiftyUserDefaults;
 			path = SwiftyUserDefaults;
 			sourceTree = "<group>";
 		};
@@ -317,13 +316,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -566,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -626,6 +627,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

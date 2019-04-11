@@ -58,6 +58,8 @@
 		C7BB3777225F446B0099EB1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BB3775225F446B0099EB1B /* LaunchScreen.storyboard */; };
 		C7BB3779225F44990099EB1B /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BB3778225F44990099EB1B /* main.storyboard */; };
 		C7BB377A225F44990099EB1B /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BB3778225F44990099EB1B /* main.storyboard */; };
+		C7BB377C225F50840099EB1B /* DefaultsKeys+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB377B225F50840099EB1B /* DefaultsKeys+Extension.swift */; };
+		C7BB377D225F50840099EB1B /* DefaultsKeys+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB377B225F50840099EB1B /* DefaultsKeys+Extension.swift */; };
 		C7FCE615224A313700610E58 /* MainPresenterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */; };
 		C7FCE616224A313700610E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2C52245184C00F233A4 /* AppDelegate.swift */; };
 		C7FCE617224A313700610E58 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30F22452ED000F233A4 /* MainViewController.swift */; };
@@ -150,6 +152,7 @@
 		C7BB376E225F3DF30099EB1B /* onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = onboarding.storyboard; sourceTree = "<group>"; };
 		C7BB3775225F446B0099EB1B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7BB3778225F44990099EB1B /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		C7BB377B225F50840099EB1B /* DefaultsKeys+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultsKeys+Extension.swift"; sourceTree = "<group>"; };
 		C7FCE62F224A313700610E58 /* Supplements dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supplements dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FCE631224A32B700610E58 /* dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dev-Info.plist"; sourceTree = "<group>"; };
 		C7FCE63A224A355200610E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainScreen.strings; sourceTree = "<group>"; };
@@ -381,6 +384,7 @@
 			children = (
 				C795A3202245325C00F233A4 /* UIViewController+Extensions.swift */,
 				C7BB3744225CB4EB0099EB1B /* String+Extensions.swift */,
+				C7BB377B225F50840099EB1B /* DefaultsKeys+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -747,6 +751,7 @@
 				C795A30622452C6D00F233A4 /* CoordinatorFactory.swift in Sources */,
 				C795A2FF22452B1E00F233A4 /* CoordinatorFactoryProtocol.swift in Sources */,
 				C795A31222452F0400F233A4 /* MainPresenter.swift in Sources */,
+				C7BB377C225F50840099EB1B /* DefaultsKeys+Extension.swift in Sources */,
 				C7BB3769225F2F150099EB1B /* OnboardingTemplate.swift in Sources */,
 				C795A2F5224526B200F233A4 /* Coordinator.swift in Sources */,
 				C795A31522452F6C00F233A4 /* MainTemplate.swift in Sources */,
@@ -801,6 +806,7 @@
 				C7FCE61D224A313700610E58 /* CoordinatorFactory.swift in Sources */,
 				C7FCE61E224A313700610E58 /* CoordinatorFactoryProtocol.swift in Sources */,
 				C7FCE61F224A313700610E58 /* MainPresenter.swift in Sources */,
+				C7BB377D225F50840099EB1B /* DefaultsKeys+Extension.swift in Sources */,
 				C7BB376A225F2F150099EB1B /* OnboardingTemplate.swift in Sources */,
 				C7FCE620224A313700610E58 /* Coordinator.swift in Sources */,
 				C7FCE621224A313700610E58 /* MainTemplate.swift in Sources */,
