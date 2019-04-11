@@ -18,4 +18,7 @@ final class ModuleFactory: MainModuleFactoryProtocol, OnboardingModuleFactoryPro
         return OnboardingViewController.controllerFromStoryboard(.onboarding)
     }
     
+    func makeOnboardingContentOutput() -> OnboardingContentViewController {
+        return OnboardingContentViewController.controllerFromStoryboard(.onboarding)
+    }
 }

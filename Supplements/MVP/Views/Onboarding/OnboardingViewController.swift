@@ -12,30 +12,25 @@ import liquid_swipe
 class OnboardingViewController: LiquidSwipeContainerController, LiquidSwipeContainerDataSource {
     var presenter: OnboardingPresenterProtocol!
     
-    var viewControllers: [OnboardingContentViewController] = {
-        let firstPage = OnboardingContentViewController.controllerFromStoryboard(.onboarding)
-        firstPage.backgroundColor = UIColor.red
-        firstPage.index = 0
-        
-        let secondPage = OnboardingContentViewController.controllerFromStoryboard(.onboarding)
-        secondPage.backgroundColor = UIColor.blue
-        secondPage.index = 1
-        
-        let thirdPage = OnboardingContentViewController.controllerFromStoryboard(.onboarding)
-        thirdPage.backgroundColor = UIColor.red
-        thirdPage.index = 2
-        
-        var controllers: [OnboardingContentViewController] = [firstPage, secondPage, thirdPage]
-        return controllers
-    }()
+    var viewControllers: [OnboardingContentViewController] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        datasource = self
         
         viewControllers.forEach { (controller) in
-            controller.presenter = presenter
+            switch controller.index {
+            case 0:
+                controller.backgroundColor = .red
+            case 1:
+                controller.backgroundColor = .blue
+            case 2:
+                controller.backgroundColor = .red
+            default:
+                controller.backgroundColor = .red
+            }
         }
+        
+        datasource = self
     }
     
     func numberOfControllersInLiquidSwipeContainer(_ liquidSwipeContainer: LiquidSwipeContainerController) -> Int {

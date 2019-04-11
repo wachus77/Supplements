@@ -28,8 +28,21 @@ class OnboardingCoordinator: BaseCoordinator, OnboardingCoordinatorOutput {
     
     func showOnboarding() {
         let onboardingOutput = factory.makeOnboardingOutput()
+        
+        let onboardingContentOutputFirst = factory.makeOnboardingContentOutput()
+        onboardingContentOutputFirst.index = 0
+        let onboardingContentOutputSecond = factory.makeOnboardingContentOutput()
+        onboardingContentOutputSecond.index = 1
+        let onboardingContentOutputThird = factory.makeOnboardingContentOutput()
+        onboardingContentOutputThird.index = 2
+        
         let presenter = presenterFactory.makeOnboardingPresenter(view: onboardingOutput, delegate: self)
         onboardingOutput.presenter = presenter
+        onboardingContentOutputFirst.presenter = presenter
+        onboardingContentOutputSecond.presenter = presenter
+        onboardingContentOutputThird.presenter = presenter
+        
+        onboardingOutput.viewControllers = [onboardingContentOutputFirst, onboardingContentOutputSecond, onboardingContentOutputThird]
         router.setRootModule(onboardingOutput.toPresent(), hideBar: true)
     }
 }

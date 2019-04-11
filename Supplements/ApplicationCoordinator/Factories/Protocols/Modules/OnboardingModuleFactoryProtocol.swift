@@ -8,4 +8,5 @@
 
 protocol OnboardingModuleFactoryProtocol {
     func makeOnboardingOutput() -> OnboardingViewController
+    func makeOnboardingContentOutput() -> OnboardingContentViewController
 }

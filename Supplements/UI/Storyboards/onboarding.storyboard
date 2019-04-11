@@ -39,11 +39,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supple_wall" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-9g-N6a">
-                                <rect key="frame" x="15" y="150" width="374" height="385"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supple_wall" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-9g-N6a">
+                                <rect key="frame" x="15" y="150" width="374" height="374"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TCf-9g-N6a" secondAttribute="height" multiplier="1:1" id="am8-4g-v3l"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4s-57-SeJ">
-                                <rect key="frame" x="45" y="560" width="294" height="239"/>
+                                <rect key="frame" x="45" y="549" width="294" height="239"/>
                                 <string key="text">A dietary supplement is a manufactured product intended to supplement the diet when taken by mouth as a pill, capsule, tablet, or liquid. A supplement can provide nutrients either extracted from food sources or synthetic, individually or in combination, in order to increase the quantity of their consumption</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -86,7 +89,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbe-jn-qb4">
-                                <rect key="frame" x="45" y="30" width="39" height="32"/>
+                                <rect key="frame" x="45" y="40" width="39" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="close">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -100,9 +103,9 @@
                         <constraints>
                             <constraint firstItem="Yri-wi-tfr" firstAttribute="top" secondItem="IUE-0S-c4u" secondAttribute="top" constant="85" id="4ZZ-k5-Rd3"/>
                             <constraint firstItem="TCf-9g-N6a" firstAttribute="top" secondItem="Yri-wi-tfr" secondAttribute="bottom" constant="5" id="5If-Kx-5lv"/>
-                            <constraint firstItem="RE8-Jw-rA6" firstAttribute="bottom" secondItem="1Wx-gk-khd" secondAttribute="bottom" constant="50" id="6Eb-r3-wqw"/>
+                            <constraint firstAttribute="bottom" secondItem="1Wx-gk-khd" secondAttribute="bottom" constant="84" id="6Eb-r3-wqw"/>
                             <constraint firstItem="TCf-9g-N6a" firstAttribute="leading" secondItem="RE8-Jw-rA6" secondAttribute="leading" constant="15" id="8nx-eX-ouD"/>
-                            <constraint firstItem="Nbe-jn-qb4" firstAttribute="top" secondItem="IUE-0S-c4u" secondAttribute="top" constant="30" id="HsA-YO-fre"/>
+                            <constraint firstItem="Nbe-jn-qb4" firstAttribute="top" secondItem="IUE-0S-c4u" secondAttribute="top" constant="40" id="HsA-YO-fre"/>
                             <constraint firstItem="1Wx-gk-khd" firstAttribute="leading" secondItem="Z4s-57-SeJ" secondAttribute="leading" id="Kdw-UY-tTC"/>
                             <constraint firstItem="RE8-Jw-rA6" firstAttribute="trailing" secondItem="TCf-9g-N6a" secondAttribute="trailing" constant="25" id="PRN-jN-Xqg"/>
                             <constraint firstItem="RE8-Jw-rA6" firstAttribute="trailing" secondItem="Z4s-57-SeJ" secondAttribute="trailing" constant="75" id="YAM-GD-u6N"/>
