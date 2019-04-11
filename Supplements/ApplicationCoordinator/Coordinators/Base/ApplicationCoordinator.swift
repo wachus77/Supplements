@@ -28,7 +28,7 @@ fileprivate enum LaunchInstructor {
         if tutorialWasShown {
             return .main
         } else {
-            return.onboarding
+            return .onboarding
         }
     }
 }

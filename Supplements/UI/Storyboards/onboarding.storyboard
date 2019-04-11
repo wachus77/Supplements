@@ -45,5 +45,108 @@
             </objects>
             <point key="canvasLocation" x="183" y="72"/>
         </scene>
+        <!--Onboarding Content View Controller-->
+        <scene sceneID="7mJ-fb-Dta">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingContentViewController" id="v60-cM-NCb" customClass="OnboardingContentViewController" customModule="Supplements" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IUE-0S-c4u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="supplements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yri-wi-tfr">
+                                <rect key="frame" x="45" y="85" width="301" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supple_wall" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-9g-N6a">
+                                <rect key="frame" x="15" y="150" width="374" height="385"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4s-57-SeJ">
+                                <rect key="frame" x="45" y="560" width="294" height="239"/>
+                                <string key="text">A dietary supplement is a manufactured product intended to supplement the diet when taken by mouth as a pill, capsule, tablet, or liquid. A supplement can provide nutrients either extracted from food sources or synthetic, individually or in combination, in order to increase the quantity of their consumption</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1Wx-gk-khd">
+                                <rect key="frame" x="45" y="809" width="240" height="3"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wl8-JG-FVw">
+                                        <rect key="frame" x="0.0" y="0.0" width="73.5" height="3"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KRA-98-3Wa">
+                                        <rect key="frame" x="83.5" y="0.0" width="73" height="3"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QsK-He-QbE">
+                                        <rect key="frame" x="166.5" y="0.0" width="73.5" height="3"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="CeM-vD-ipz"/>
+                                    <constraint firstAttribute="height" constant="3" id="Jwe-yk-z72"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbe-jn-qb4">
+                                <rect key="frame" x="45" y="30" width="39" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="close">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeTapped:" destination="v60-cM-NCb" eventType="touchUpInside" id="8UF-oe-shd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yri-wi-tfr" firstAttribute="top" secondItem="IUE-0S-c4u" secondAttribute="top" constant="85" id="4ZZ-k5-Rd3"/>
+                            <constraint firstItem="TCf-9g-N6a" firstAttribute="top" secondItem="Yri-wi-tfr" secondAttribute="bottom" constant="5" id="5If-Kx-5lv"/>
+                            <constraint firstItem="RE8-Jw-rA6" firstAttribute="bottom" secondItem="1Wx-gk-khd" secondAttribute="bottom" constant="50" id="6Eb-r3-wqw"/>
+                            <constraint firstItem="TCf-9g-N6a" firstAttribute="leading" secondItem="RE8-Jw-rA6" secondAttribute="leading" constant="15" id="8nx-eX-ouD"/>
+                            <constraint firstItem="Nbe-jn-qb4" firstAttribute="top" secondItem="IUE-0S-c4u" secondAttribute="top" constant="30" id="HsA-YO-fre"/>
+                            <constraint firstItem="1Wx-gk-khd" firstAttribute="leading" secondItem="Z4s-57-SeJ" secondAttribute="leading" id="Kdw-UY-tTC"/>
+                            <constraint firstItem="RE8-Jw-rA6" firstAttribute="trailing" secondItem="TCf-9g-N6a" secondAttribute="trailing" constant="25" id="PRN-jN-Xqg"/>
+                            <constraint firstItem="RE8-Jw-rA6" firstAttribute="trailing" secondItem="Z4s-57-SeJ" secondAttribute="trailing" constant="75" id="YAM-GD-u6N"/>
+                            <constraint firstItem="Yri-wi-tfr" firstAttribute="leading" secondItem="RE8-Jw-rA6" secondAttribute="leading" constant="45" id="d52-FH-cfs"/>
+                            <constraint firstItem="Z4s-57-SeJ" firstAttribute="leading" secondItem="RE8-Jw-rA6" secondAttribute="leading" constant="45" id="i4J-7h-KNV"/>
+                            <constraint firstItem="1Wx-gk-khd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Z4s-57-SeJ" secondAttribute="bottom" constant="10" id="v7L-cU-H6R"/>
+                            <constraint firstItem="Yri-wi-tfr" firstAttribute="leading" secondItem="Nbe-jn-qb4" secondAttribute="leading" id="xhY-Mm-Jz4"/>
+                            <constraint firstItem="Z4s-57-SeJ" firstAttribute="top" secondItem="TCf-9g-N6a" secondAttribute="bottom" constant="25" id="z99-t7-rlf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RE8-Jw-rA6"/>
+                    </view>
+                    <connections>
+                        <outlet property="contentImageView" destination="TCf-9g-N6a" id="2ey-HC-tTQ"/>
+                        <outlet property="descriptionLabel" destination="Z4s-57-SeJ" id="cJ2-Hf-frT"/>
+                        <outlet property="progressStackView" destination="1Wx-gk-khd" id="xOB-SM-yTb"/>
+                        <outlet property="titleLabel" destination="Yri-wi-tfr" id="Fpd-Tk-eUs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2kb-3q-neb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="984" y="72"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="supple_wall" width="1825.5" height="1641.5"/>
+    </resources>
 </document>
