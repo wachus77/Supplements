@@ -8,10 +8,30 @@
 
 import UIKit
 
+fileprivate var onboardingWasShown = false
+
+fileprivate enum LaunchInstructor {
+    case main, onboarding
+    
+    static func configure(
+        tutorialWasShown: Bool = onboardingWasShown) -> LaunchInstructor {
+        
+        if tutorialWasShown {
+            return .main
+        } else {
+            return.onboarding
+        }
+    }
+}
+
 final class ApplicationCoordinator: BaseCoordinator {
     
     private let coordinatorFactory: CoordinatorFactoryProtocol
     private let router: Router
+    
+    private var instructor: LaunchInstructor {
+        return LaunchInstructor.configure()
+    }
     
     init(router: Router, coordinatorFactory: CoordinatorFactoryProtocol) {
         self.router = router
@@ -19,7 +39,10 @@ final class ApplicationCoordinator: BaseCoordinator {
     }
     
     override func start() {
-        runMainFlow()
+        switch instructor {
+        case .onboarding: runOnboardingFlow()
+        case .main: runMainFlow()
+        }
     }
     
     private func runMainFlow() {
@@ -38,7 +61,7 @@ final class ApplicationCoordinator: BaseCoordinator {
         let coordinator = coordinatorFactory.makeOnboardingCoordinator(router: router)
         
         coordinator.finishFlow = { [weak self, weak coordinator] in
-            //onboardingWasShown = true
+            onboardingWasShown = true
             self?.start()
             self?.removeDependency(coordinator)
         }
