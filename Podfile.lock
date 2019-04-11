@@ -1,16 +1,24 @@
 PODS:
+  - liquid-swipe (0.7.0):
+    - pop (~> 1.0)
+  - pop (1.0.12)
   - SwiftyUserDefaults (4.0.0-alpha.1)
 
 DEPENDENCIES:
+  - liquid-swipe
   - SwiftyUserDefaults (= 4.0.0-alpha.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - liquid-swipe
+    - pop
     - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
+  liquid-swipe: 850f88c0717fe58ba83f0f571c47a191f29ddc1f
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   SwiftyUserDefaults: cebe0ff9472f52699772a514b6f7155861d8069b
 
-PODFILE CHECKSUM: f1b8852ab5edf578e072f92f97053ea66345164c
+PODFILE CHECKSUM: 692751e4fb4417928a445a1b9e4f713e8c2b0339
 
 COCOAPODS: 1.6.1
