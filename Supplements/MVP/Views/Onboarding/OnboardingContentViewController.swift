@@ -39,7 +39,7 @@ class OnboardingContentViewController: UIViewController {
         
         for (index, view) in progressStackView.subviews.enumerated() {
             if index == self.index {
-                view.backgroundColor = backgroundColor == .red ? .blue : .red
+                view.backgroundColor = backgroundColor == .onboardingLightRed ? .onboardingRed : .onboardingLightRed
                 break
             }
         }

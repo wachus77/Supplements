@@ -9,6 +9,8 @@
 import UIKit
 import liquid_swipe
 
+let onRedColor = UIColor.init(red: 242, green: 96, blue: 96, alpha: 1)
+
 class OnboardingViewController: LiquidSwipeContainerController, LiquidSwipeContainerDataSource {
     var presenter: OnboardingPresenterProtocol!
     
@@ -20,13 +22,13 @@ class OnboardingViewController: LiquidSwipeContainerController, LiquidSwipeConta
         viewControllers.forEach { (controller) in
             switch controller.index {
             case 0:
-                controller.backgroundColor = .red
+                controller.backgroundColor = .onboardingLightRed
             case 1:
-                controller.backgroundColor = .blue
+                controller.backgroundColor = .onboardingRed
             case 2:
-                controller.backgroundColor = .red
+                controller.backgroundColor = .onboardingLightRed
             default:
-                controller.backgroundColor = .red
+                controller.backgroundColor = .onboardingLightRed
             }
         }
         

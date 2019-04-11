@@ -62,6 +62,8 @@
 		C7BB377D225F50840099EB1B /* DefaultsKeys+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB377B225F50840099EB1B /* DefaultsKeys+Extension.swift */; };
 		C7BB3780225F53F90099EB1B /* OnboardingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB377F225F53F90099EB1B /* OnboardingContentViewController.swift */; };
 		C7BB3781225F53F90099EB1B /* OnboardingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB377F225F53F90099EB1B /* OnboardingContentViewController.swift */; };
+		C7BB3783225F69C60099EB1B /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3782225F69C60099EB1B /* UIColor+Extensions.swift */; };
+		C7BB3784225F6AA50099EB1B /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3782225F69C60099EB1B /* UIColor+Extensions.swift */; };
 		C7FCE615224A313700610E58 /* MainPresenterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */; };
 		C7FCE616224A313700610E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2C52245184C00F233A4 /* AppDelegate.swift */; };
 		C7FCE617224A313700610E58 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30F22452ED000F233A4 /* MainViewController.swift */; };
@@ -156,6 +158,7 @@
 		C7BB3778225F44990099EB1B /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		C7BB377B225F50840099EB1B /* DefaultsKeys+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultsKeys+Extension.swift"; sourceTree = "<group>"; };
 		C7BB377F225F53F90099EB1B /* OnboardingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewController.swift; sourceTree = "<group>"; };
+		C7BB3782225F69C60099EB1B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		C7FCE62F224A313700610E58 /* Supplements dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supplements dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FCE631224A32B700610E58 /* dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dev-Info.plist"; sourceTree = "<group>"; };
 		C7FCE63A224A355200610E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainScreen.strings; sourceTree = "<group>"; };
@@ -388,6 +391,7 @@
 				C795A3202245325C00F233A4 /* UIViewController+Extensions.swift */,
 				C7BB3744225CB4EB0099EB1B /* String+Extensions.swift */,
 				C7BB377B225F50840099EB1B /* DefaultsKeys+Extension.swift */,
+				C7BB3782225F69C60099EB1B /* UIColor+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -767,6 +771,7 @@
 				C795A30822452CF000F233A4 /* MainCoordinator.swift in Sources */,
 				C7BB376C225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift in Sources */,
 				C795A31B2245310200F233A4 /* ModuleFactory.swift in Sources */,
+				C7BB3783225F69C60099EB1B /* UIColor+Extensions.swift in Sources */,
 				C795A2FB22452A6D00F233A4 /* ApplicationCoordinator.swift in Sources */,
 				C795A30622452C6D00F233A4 /* CoordinatorFactory.swift in Sources */,
 				C795A2FF22452B1E00F233A4 /* CoordinatorFactoryProtocol.swift in Sources */,
@@ -823,6 +828,7 @@
 				C7FCE61A224A313700610E58 /* MainCoordinator.swift in Sources */,
 				C7BB376D225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift in Sources */,
 				C7FCE61B224A313700610E58 /* ModuleFactory.swift in Sources */,
+				C7BB3784225F6AA50099EB1B /* UIColor+Extensions.swift in Sources */,
 				C7FCE61C224A313700610E58 /* ApplicationCoordinator.swift in Sources */,
 				C7FCE61D224A313700610E58 /* CoordinatorFactory.swift in Sources */,
 				C7FCE61E224A313700610E58 /* CoordinatorFactoryProtocol.swift in Sources */,
