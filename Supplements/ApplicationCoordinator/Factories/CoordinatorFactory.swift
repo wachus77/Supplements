@@ -14,4 +14,8 @@ final class CoordinatorFactory: CoordinatorFactoryProtocol {
         return MainCoordinator(with: ModuleFactory(), coordinatorFactory: CoordinatorFactory(), presenterFactory: PresenterFactory(), router: router)
     }
     
+    func makeOnboardingCoordinator(router: Router) -> Coordinator & OnboardingCoordinatorOutput {
+        return OnboardingCoordinator(with: ModuleFactory(), presenterFactory: PresenterFactory(), router: router)
+    }
+    
 }

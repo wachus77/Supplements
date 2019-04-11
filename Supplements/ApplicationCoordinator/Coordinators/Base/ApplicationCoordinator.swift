@@ -31,7 +31,19 @@ final class ApplicationCoordinator: BaseCoordinator {
         }
         
         addDependency(coordinator)
+        coordinator.start()
+    }
+    
+    private func runOnboardingFlow() {
+        let coordinator = coordinatorFactory.makeOnboardingCoordinator(router: router)
         
+        coordinator.finishFlow = { [weak self, weak coordinator] in
+            //onboardingWasShown = true
+            self?.start()
+            self?.removeDependency(coordinator)
+        }
+        
+        addDependency(coordinator)
         coordinator.start()
     }
 }

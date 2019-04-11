@@ -10,4 +10,6 @@ import UIKit
 
 protocol CoordinatorFactoryProtocol {
     func makeMainCoordinator(router: Router) -> Coordinator & MainCoordinatorOutputProtocol
+    
+    func makeOnboardingCoordinator(router: Router) -> Coordinator & OnboardingCoordinatorOutput
 }

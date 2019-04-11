@@ -8,10 +8,14 @@
 
 import UIKit
 
-final class ModuleFactory: MainModuleFactoryProtocol {
+final class ModuleFactory: MainModuleFactoryProtocol, OnboardingModuleFactoryProtocol {
     
     func makeMainOutput() -> MainViewController {
         return MainViewController.controllerFromStoryboard(.main)
+    }
+    
+    func makeOnboardingOutput() -> OnboardingViewController {
+        return OnboardingViewController.controllerFromStoryboard(.onboarding)
     }
     
 }

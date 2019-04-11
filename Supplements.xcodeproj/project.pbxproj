@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C795A2C62245184C00F233A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2C52245184C00F233A4 /* AppDelegate.swift */; };
-		C795A2CB2245184C00F233A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2C92245184C00F233A4 /* Main.storyboard */; };
+		C795A2CB2245184C00F233A4 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2C92245184C00F233A4 /* main.storyboard */; };
 		C795A2CD2245184E00F233A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C795A2CC2245184E00F233A4 /* Assets.xcassets */; };
 		C795A2D02245184E00F233A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2CE2245184E00F233A4 /* LaunchScreen.storyboard */; };
 		C795A2DB2245184E00F233A4 /* SupplementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2DA2245184E00F233A4 /* SupplementsTests.swift */; };
@@ -38,6 +38,22 @@
 		C7BB3750225CB8750099EB1B /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB374E225CB8750099EB1B /* Presentable.swift */; };
 		C7BB3752225CB8D10099EB1B /* RouterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3751225CB8D00099EB1B /* RouterImp.swift */; };
 		C7BB3753225CB8D10099EB1B /* RouterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3751225CB8D00099EB1B /* RouterImp.swift */; };
+		C7BB375A225F2D550099EB1B /* OnboardingCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3759225F2D550099EB1B /* OnboardingCoordinatorOutput.swift */; };
+		C7BB375B225F2D550099EB1B /* OnboardingCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3759225F2D550099EB1B /* OnboardingCoordinatorOutput.swift */; };
+		C7BB375D225F2E0F0099EB1B /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB375C225F2E0F0099EB1B /* OnboardingCoordinator.swift */; };
+		C7BB375E225F2E0F0099EB1B /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB375C225F2E0F0099EB1B /* OnboardingCoordinator.swift */; };
+		C7BB3760225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB375F225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift */; };
+		C7BB3761225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB375F225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift */; };
+		C7BB3763225F2EA60099EB1B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3762225F2EA60099EB1B /* OnboardingViewController.swift */; };
+		C7BB3764225F2EA60099EB1B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3762225F2EA60099EB1B /* OnboardingViewController.swift */; };
+		C7BB3766225F2ECF0099EB1B /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3765225F2ECF0099EB1B /* OnboardingPresenter.swift */; };
+		C7BB3767225F2ECF0099EB1B /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3765225F2ECF0099EB1B /* OnboardingPresenter.swift */; };
+		C7BB3769225F2F150099EB1B /* OnboardingTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3768225F2F150099EB1B /* OnboardingTemplate.swift */; };
+		C7BB376A225F2F150099EB1B /* OnboardingTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3768225F2F150099EB1B /* OnboardingTemplate.swift */; };
+		C7BB376C225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB376B225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift */; };
+		C7BB376D225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB376B225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift */; };
+		C7BB376F225F3DF30099EB1B /* onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BB376E225F3DF30099EB1B /* onboarding.storyboard */; };
+		C7BB3770225F3DF30099EB1B /* onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BB376E225F3DF30099EB1B /* onboarding.storyboard */; };
 		C7FCE615224A313700610E58 /* MainPresenterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */; };
 		C7FCE616224A313700610E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2C52245184C00F233A4 /* AppDelegate.swift */; };
 		C7FCE617224A313700610E58 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30F22452ED000F233A4 /* MainViewController.swift */; };
@@ -58,7 +74,7 @@
 		C7FCE626224A313700610E58 /* CoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30322452BB400F233A4 /* CoordinatorOutput.swift */; };
 		C7FCE629224A313700610E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2CE2245184E00F233A4 /* LaunchScreen.storyboard */; };
 		C7FCE62A224A313700610E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C795A2CC2245184E00F233A4 /* Assets.xcassets */; };
-		C7FCE62B224A313700610E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2C92245184C00F233A4 /* Main.storyboard */; };
+		C7FCE62B224A313700610E58 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C795A2C92245184C00F233A4 /* main.storyboard */; };
 		C7FCE638224A355200610E58 /* MainScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7FCE63B224A355200610E58 /* MainScreen.strings */; };
 		C7FCE639224A355200610E58 /* MainScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7FCE63B224A355200610E58 /* MainScreen.strings */; };
 		C7FCE63D224A363000610E58 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FCE63C224A363000610E58 /* Localizable.swift */; };
@@ -87,7 +103,7 @@
 /* Begin PBXFileReference section */
 		C795A2C22245184C00F233A4 /* Supplements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supplements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C795A2C52245184C00F233A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C795A2CA2245184C00F233A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C795A2CA2245184C00F233A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
 		C795A2CC2245184E00F233A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C795A2CF2245184E00F233A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C795A2D12245184E00F233A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,11 +132,19 @@
 		C795A3222245328900F233A4 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		C7BB3744225CB4EB0099EB1B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		C7BB3747225CB69E0099EB1B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		C7BB3748225CB69E0099EB1B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		C7BB3748225CB69E0099EB1B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/main.strings; sourceTree = "<group>"; };
 		C7BB3749225CB69E0099EB1B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/MainScreen.strings; sourceTree = "<group>"; };
 		C7BB374B225CB8380099EB1B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		C7BB374E225CB8750099EB1B /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
 		C7BB3751225CB8D00099EB1B /* RouterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterImp.swift; sourceTree = "<group>"; };
+		C7BB3759225F2D550099EB1B /* OnboardingCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinatorOutput.swift; sourceTree = "<group>"; };
+		C7BB375C225F2E0F0099EB1B /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		C7BB375F225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModuleFactoryProtocol.swift; sourceTree = "<group>"; };
+		C7BB3762225F2EA60099EB1B /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		C7BB3765225F2ECF0099EB1B /* OnboardingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
+		C7BB3768225F2F150099EB1B /* OnboardingTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTemplate.swift; sourceTree = "<group>"; };
+		C7BB376B225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresenterFactoryProtocol.swift; sourceTree = "<group>"; };
+		C7BB376E225F3DF30099EB1B /* onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = onboarding.storyboard; sourceTree = "<group>"; };
 		C7FCE62F224A313700610E58 /* Supplements dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supplements dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FCE631224A32B700610E58 /* dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dev-Info.plist"; sourceTree = "<group>"; };
 		C7FCE63A224A355200610E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainScreen.strings; sourceTree = "<group>"; };
@@ -231,6 +255,7 @@
 				C795A30022452B3D00F233A4 /* Outputs Protocols */,
 				C7BB3756225DF3250099EB1B /* Base */,
 				C795A30722452CF000F233A4 /* MainCoordinator.swift */,
+				C7BB375C225F2E0F0099EB1B /* OnboardingCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -261,6 +286,7 @@
 			children = (
 				C795A30322452BB400F233A4 /* CoordinatorOutput.swift */,
 				C795A30122452B7300F233A4 /* MainCoordinatorOutputProtocol.swift */,
+				C7BB3759225F2D550099EB1B /* OnboardingCoordinatorOutput.swift */,
 			);
 			path = "Outputs Protocols";
 			sourceTree = "<group>";
@@ -287,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				C795A30F22452ED000F233A4 /* MainViewController.swift */,
+				C7BB3762225F2EA60099EB1B /* OnboardingViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				C795A31122452F0400F233A4 /* MainPresenter.swift */,
+				C7BB3765225F2ECF0099EB1B /* OnboardingPresenter.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -303,6 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				C795A31422452F6C00F233A4 /* MainTemplate.swift */,
+				C7BB3768225F2F150099EB1B /* OnboardingTemplate.swift */,
 			);
 			path = Templates;
 			sourceTree = "<group>";
@@ -320,7 +349,8 @@
 			children = (
 				C795A3222245328900F233A4 /* Storyboard.swift */,
 				C795A2CE2245184E00F233A4 /* LaunchScreen.storyboard */,
-				C795A2C92245184C00F233A4 /* Main.storyboard */,
+				C795A2C92245184C00F233A4 /* main.storyboard */,
+				C7BB376E225F3DF30099EB1B /* onboarding.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -347,6 +377,7 @@
 			isa = PBXGroup;
 			children = (
 				C795A30922452E5800F233A4 /* MainModuleFactoryProtocol.swift */,
+				C7BB375F225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -355,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */,
+				C7BB376B225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -533,7 +565,8 @@
 				C795A2D02245184E00F233A4 /* LaunchScreen.storyboard in Resources */,
 				C7FCE638224A355200610E58 /* MainScreen.strings in Resources */,
 				C795A2CD2245184E00F233A4 /* Assets.xcassets in Resources */,
-				C795A2CB2245184C00F233A4 /* Main.storyboard in Resources */,
+				C7BB376F225F3DF30099EB1B /* onboarding.storyboard in Resources */,
+				C795A2CB2245184C00F233A4 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +591,8 @@
 				C7FCE629224A313700610E58 /* LaunchScreen.storyboard in Resources */,
 				C7FCE639224A355200610E58 /* MainScreen.strings in Resources */,
 				C7FCE62A224A313700610E58 /* Assets.xcassets in Resources */,
-				C7FCE62B224A313700610E58 /* Main.storyboard in Resources */,
+				C7BB3770225F3DF30099EB1B /* onboarding.storyboard in Resources */,
+				C7FCE62B224A313700610E58 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +606,7 @@
 				C7BB374C225CB8380099EB1B /* Router.swift in Sources */,
 				C795A3172245304300F233A4 /* MainPresenterFactoryProtocol.swift in Sources */,
 				C7BB3745225CB4EB0099EB1B /* String+Extensions.swift in Sources */,
+				C7BB375D225F2E0F0099EB1B /* OnboardingCoordinator.swift in Sources */,
 				C795A2C62245184C00F233A4 /* AppDelegate.swift in Sources */,
 				C795A31022452ED000F233A4 /* MainViewController.swift in Sources */,
 				C7FCE640224A369100610E58 /* Localizable+UIView+Extensions.swift in Sources */,
@@ -579,18 +614,24 @@
 				C7BB374F225CB8750099EB1B /* Presentable.swift in Sources */,
 				C795A3212245325C00F233A4 /* UIViewController+Extensions.swift in Sources */,
 				C7BB3752225CB8D10099EB1B /* RouterImp.swift in Sources */,
+				C7BB3763225F2EA60099EB1B /* OnboardingViewController.swift in Sources */,
 				C795A30822452CF000F233A4 /* MainCoordinator.swift in Sources */,
+				C7BB376C225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift in Sources */,
 				C795A31B2245310200F233A4 /* ModuleFactory.swift in Sources */,
 				C795A2FB22452A6D00F233A4 /* ApplicationCoordinator.swift in Sources */,
 				C795A30622452C6D00F233A4 /* CoordinatorFactory.swift in Sources */,
 				C795A2FF22452B1E00F233A4 /* CoordinatorFactoryProtocol.swift in Sources */,
 				C795A31222452F0400F233A4 /* MainPresenter.swift in Sources */,
+				C7BB3769225F2F150099EB1B /* OnboardingTemplate.swift in Sources */,
 				C795A2F5224526B200F233A4 /* Coordinator.swift in Sources */,
 				C795A31522452F6C00F233A4 /* MainTemplate.swift in Sources */,
 				C7FCE63D224A363000610E58 /* Localizable.swift in Sources */,
 				C795A319224530B100F233A4 /* PresenterFactory.swift in Sources */,
 				C795A2F9224527CA00F233A4 /* BaseCoordinator.swift in Sources */,
+				C7BB375A225F2D550099EB1B /* OnboardingCoordinatorOutput.swift in Sources */,
+				C7BB3760225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift in Sources */,
 				C795A30A22452E5800F233A4 /* MainModuleFactoryProtocol.swift in Sources */,
+				C7BB3766225F2ECF0099EB1B /* OnboardingPresenter.swift in Sources */,
 				C795A3232245328900F233A4 /* Storyboard.swift in Sources */,
 				C795A30422452BB400F233A4 /* CoordinatorOutput.swift in Sources */,
 			);
@@ -619,6 +660,7 @@
 				C7BB374D225CB8380099EB1B /* Router.swift in Sources */,
 				C7FCE615224A313700610E58 /* MainPresenterFactoryProtocol.swift in Sources */,
 				C7BB3746225CB4F90099EB1B /* String+Extensions.swift in Sources */,
+				C7BB375E225F2E0F0099EB1B /* OnboardingCoordinator.swift in Sources */,
 				C7FCE616224A313700610E58 /* AppDelegate.swift in Sources */,
 				C7FCE617224A313700610E58 /* MainViewController.swift in Sources */,
 				C7FCE641224A369100610E58 /* Localizable+UIView+Extensions.swift in Sources */,
@@ -626,18 +668,24 @@
 				C7BB3750225CB8750099EB1B /* Presentable.swift in Sources */,
 				C7FCE619224A313700610E58 /* UIViewController+Extensions.swift in Sources */,
 				C7BB3753225CB8D10099EB1B /* RouterImp.swift in Sources */,
+				C7BB3764225F2EA60099EB1B /* OnboardingViewController.swift in Sources */,
 				C7FCE61A224A313700610E58 /* MainCoordinator.swift in Sources */,
+				C7BB376D225F30900099EB1B /* OnboardingPresenterFactoryProtocol.swift in Sources */,
 				C7FCE61B224A313700610E58 /* ModuleFactory.swift in Sources */,
 				C7FCE61C224A313700610E58 /* ApplicationCoordinator.swift in Sources */,
 				C7FCE61D224A313700610E58 /* CoordinatorFactory.swift in Sources */,
 				C7FCE61E224A313700610E58 /* CoordinatorFactoryProtocol.swift in Sources */,
 				C7FCE61F224A313700610E58 /* MainPresenter.swift in Sources */,
+				C7BB376A225F2F150099EB1B /* OnboardingTemplate.swift in Sources */,
 				C7FCE620224A313700610E58 /* Coordinator.swift in Sources */,
 				C7FCE621224A313700610E58 /* MainTemplate.swift in Sources */,
 				C7FCE63E224A363000610E58 /* Localizable.swift in Sources */,
 				C7FCE622224A313700610E58 /* PresenterFactory.swift in Sources */,
 				C7FCE623224A313700610E58 /* BaseCoordinator.swift in Sources */,
+				C7BB375B225F2D550099EB1B /* OnboardingCoordinatorOutput.swift in Sources */,
+				C7BB3761225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift in Sources */,
 				C7FCE624224A313700610E58 /* MainModuleFactoryProtocol.swift in Sources */,
+				C7BB3767225F2ECF0099EB1B /* OnboardingPresenter.swift in Sources */,
 				C7FCE625224A313700610E58 /* Storyboard.swift in Sources */,
 				C7FCE626224A313700610E58 /* CoordinatorOutput.swift in Sources */,
 			);
@@ -659,13 +707,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C795A2C92245184C00F233A4 /* Main.storyboard */ = {
+		C795A2C92245184C00F233A4 /* main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C795A2CA2245184C00F233A4 /* Base */,
 				C7BB3748225CB69E0099EB1B /* pl */,
 			);
-			name = Main.storyboard;
+			name = main.storyboard;
 			sourceTree = "<group>";
 		};
 		C795A2CE2245184E00F233A4 /* LaunchScreen.storyboard */ = {

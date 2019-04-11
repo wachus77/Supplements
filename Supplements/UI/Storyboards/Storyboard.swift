@@ -9,6 +9,7 @@
 import Foundation
 
 enum Storyboard: String {
-    case main = "Main"
+    case main
     case launch = "LaunchScreen"
+    case onboarding
 }
