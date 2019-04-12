@@ -64,6 +64,8 @@
 		C7BB3781225F53F90099EB1B /* OnboardingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB377F225F53F90099EB1B /* OnboardingContentViewController.swift */; };
 		C7BB3783225F69C60099EB1B /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3782225F69C60099EB1B /* UIColor+Extensions.swift */; };
 		C7BB3784225F6AA50099EB1B /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3782225F69C60099EB1B /* UIColor+Extensions.swift */; };
+		C7BB37872260BA4A0099EB1B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB37862260BA4A0099EB1B /* DataManager.swift */; };
+		C7BB37882260BA4A0099EB1B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB37862260BA4A0099EB1B /* DataManager.swift */; };
 		C7FCE615224A313700610E58 /* MainPresenterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */; };
 		C7FCE616224A313700610E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2C52245184C00F233A4 /* AppDelegate.swift */; };
 		C7FCE617224A313700610E58 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30F22452ED000F233A4 /* MainViewController.swift */; };
@@ -159,6 +161,7 @@
 		C7BB377B225F50840099EB1B /* DefaultsKeys+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultsKeys+Extension.swift"; sourceTree = "<group>"; };
 		C7BB377F225F53F90099EB1B /* OnboardingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewController.swift; sourceTree = "<group>"; };
 		C7BB3782225F69C60099EB1B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		C7BB37862260BA4A0099EB1B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		C7FCE62F224A313700610E58 /* Supplements dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supplements dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FCE631224A32B700610E58 /* dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dev-Info.plist"; sourceTree = "<group>"; };
 		C7FCE63A224A355200610E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainScreen.strings; sourceTree = "<group>"; };
@@ -238,6 +241,7 @@
 		C795A2C42245184C00F233A4 /* Supplements */ = {
 			isa = PBXGroup;
 			children = (
+				C7BB37852260BA270099EB1B /* Managers */,
 				C795A30B22452E9200F233A4 /* MVP */,
 				C795A31C2245317E00F233A4 /* UI */,
 				C795A2F32245268800F233A4 /* ApplicationCoordinator */,
@@ -456,6 +460,14 @@
 				C7BB377F225F53F90099EB1B /* OnboardingContentViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C7BB37852260BA270099EB1B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C7BB37862260BA4A0099EB1B /* DataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		C7FCE633224A34E200610E58 /* Support Files */ = {
@@ -787,6 +799,7 @@
 				C7BB375A225F2D550099EB1B /* OnboardingCoordinatorOutput.swift in Sources */,
 				C7BB3760225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift in Sources */,
 				C795A30A22452E5800F233A4 /* MainModuleFactoryProtocol.swift in Sources */,
+				C7BB37872260BA4A0099EB1B /* DataManager.swift in Sources */,
 				C7BB3766225F2ECF0099EB1B /* OnboardingPresenter.swift in Sources */,
 				C795A3232245328900F233A4 /* Storyboard.swift in Sources */,
 				C795A30422452BB400F233A4 /* CoordinatorOutput.swift in Sources */,
@@ -844,6 +857,7 @@
 				C7BB375B225F2D550099EB1B /* OnboardingCoordinatorOutput.swift in Sources */,
 				C7BB3761225F2E6F0099EB1B /* OnboardingModuleFactoryProtocol.swift in Sources */,
 				C7FCE624224A313700610E58 /* MainModuleFactoryProtocol.swift in Sources */,
+				C7BB37882260BA4A0099EB1B /* DataManager.swift in Sources */,
 				C7BB3767225F2ECF0099EB1B /* OnboardingPresenter.swift in Sources */,
 				C7FCE625224A313700610E58 /* Storyboard.swift in Sources */,
 				C7FCE626224A313700610E58 /* CoordinatorOutput.swift in Sources */,
