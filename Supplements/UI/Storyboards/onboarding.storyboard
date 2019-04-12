@@ -33,27 +33,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="supplements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yri-wi-tfr">
-                                <rect key="frame" x="45" y="85" width="301" height="60"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="supplements" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yri-wi-tfr">
+                                <rect key="frame" x="20" y="74" width="374" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supple_wall" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-9g-N6a">
-                                <rect key="frame" x="15" y="150" width="374" height="374"/>
+                                <rect key="frame" x="20" y="127" width="374" height="280.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="TCf-9g-N6a" secondAttribute="height" multiplier="1:1" id="am8-4g-v3l"/>
+                                    <constraint firstAttribute="width" secondItem="TCf-9g-N6a" secondAttribute="height" multiplier="4:3" id="am8-4g-v3l"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4s-57-SeJ">
-                                <rect key="frame" x="45" y="549" width="294" height="239"/>
+                                <rect key="frame" x="20" y="432.5" width="339" height="215"/>
                                 <string key="text">A dietary supplement is a manufactured product intended to supplement the diet when taken by mouth as a pill, capsule, tablet, or liquid. A supplement can provide nutrients either extracted from food sources or synthetic, individually or in combination, in order to increase the quantity of their consumption</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1Wx-gk-khd">
-                                <rect key="frame" x="45" y="809" width="240" height="3"/>
+                                <rect key="frame" x="20" y="809" width="240" height="3"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wl8-JG-FVw">
                                         <rect key="frame" x="0.0" y="0.0" width="73.5" height="3"/>
@@ -89,7 +89,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbe-jn-qb4">
-                                <rect key="frame" x="45" y="40" width="43" height="34"/>
+                                <rect key="frame" x="20" y="35" width="43" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="close">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -101,16 +101,17 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Yri-wi-tfr" firstAttribute="top" secondItem="IUE-0S-c4u" secondAttribute="top" constant="85" id="4ZZ-k5-Rd3"/>
                             <constraint firstItem="TCf-9g-N6a" firstAttribute="top" secondItem="Yri-wi-tfr" secondAttribute="bottom" constant="5" id="5If-Kx-5lv"/>
                             <constraint firstAttribute="bottom" secondItem="1Wx-gk-khd" secondAttribute="bottom" constant="84" id="6Eb-r3-wqw"/>
-                            <constraint firstItem="TCf-9g-N6a" firstAttribute="leading" secondItem="RE8-Jw-rA6" secondAttribute="leading" constant="15" id="8nx-eX-ouD"/>
-                            <constraint firstItem="Nbe-jn-qb4" firstAttribute="top" secondItem="IUE-0S-c4u" secondAttribute="top" constant="40" id="HsA-YO-fre"/>
+                            <constraint firstItem="Nbe-jn-qb4" firstAttribute="top" secondItem="IUE-0S-c4u" secondAttribute="top" constant="35" id="HsA-YO-fre"/>
                             <constraint firstItem="1Wx-gk-khd" firstAttribute="leading" secondItem="Z4s-57-SeJ" secondAttribute="leading" id="Kdw-UY-tTC"/>
-                            <constraint firstItem="RE8-Jw-rA6" firstAttribute="trailing" secondItem="TCf-9g-N6a" secondAttribute="trailing" constant="25" id="PRN-jN-Xqg"/>
-                            <constraint firstItem="RE8-Jw-rA6" firstAttribute="trailing" secondItem="Z4s-57-SeJ" secondAttribute="trailing" constant="75" id="YAM-GD-u6N"/>
-                            <constraint firstItem="Yri-wi-tfr" firstAttribute="leading" secondItem="RE8-Jw-rA6" secondAttribute="leading" constant="45" id="d52-FH-cfs"/>
-                            <constraint firstItem="Z4s-57-SeJ" firstAttribute="leading" secondItem="RE8-Jw-rA6" secondAttribute="leading" constant="45" id="i4J-7h-KNV"/>
+                            <constraint firstItem="TCf-9g-N6a" firstAttribute="trailing" secondItem="Yri-wi-tfr" secondAttribute="trailing" id="XUl-bf-uPm"/>
+                            <constraint firstItem="RE8-Jw-rA6" firstAttribute="trailing" secondItem="Z4s-57-SeJ" secondAttribute="trailing" constant="55" id="YAM-GD-u6N"/>
+                            <constraint firstItem="RE8-Jw-rA6" firstAttribute="trailing" secondItem="Yri-wi-tfr" secondAttribute="trailing" constant="20" id="cZ3-2s-yZo"/>
+                            <constraint firstItem="Yri-wi-tfr" firstAttribute="leading" secondItem="RE8-Jw-rA6" secondAttribute="leading" constant="20" id="d52-FH-cfs"/>
+                            <constraint firstItem="Z4s-57-SeJ" firstAttribute="leading" secondItem="RE8-Jw-rA6" secondAttribute="leading" constant="20" id="i4J-7h-KNV"/>
+                            <constraint firstItem="Yri-wi-tfr" firstAttribute="top" secondItem="Nbe-jn-qb4" secondAttribute="bottom" constant="5" id="ji9-mx-0no"/>
+                            <constraint firstItem="TCf-9g-N6a" firstAttribute="leading" secondItem="Yri-wi-tfr" secondAttribute="leading" id="p46-2i-VPG"/>
                             <constraint firstItem="1Wx-gk-khd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Z4s-57-SeJ" secondAttribute="bottom" constant="10" id="v7L-cU-H6R"/>
                             <constraint firstItem="Yri-wi-tfr" firstAttribute="leading" secondItem="Nbe-jn-qb4" secondAttribute="leading" id="xhY-Mm-Jz4"/>
                             <constraint firstItem="Z4s-57-SeJ" firstAttribute="top" secondItem="TCf-9g-N6a" secondAttribute="bottom" constant="25" id="z99-t7-rlf"/>
