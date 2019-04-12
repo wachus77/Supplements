@@ -17,12 +17,21 @@ extension Localizable where Self: RawRepresentable, Self.RawValue == String {
     var localized: String {
         return rawValue.localized(tableName: tableName)
     }
-}
-
-enum MainScreen: String, Localizable {
-    case comingSoon
     
     var tableName: String {
         return String(describing: type(of: self))
     }
+}
+
+enum MainScreen: String, Localizable {
+    case comingSoon
+}
+
+enum OnboardingScreen: String, Localizable {
+    case firstScreenTitle
+    case firstScreenDesc
+    case secondScreenTitle
+    case secondScreenDesc
+    case thirdScreenTitle
+    case thirdScreenDesc
 }

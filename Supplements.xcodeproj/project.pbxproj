@@ -66,6 +66,8 @@
 		C7BB3784225F6AA50099EB1B /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB3782225F69C60099EB1B /* UIColor+Extensions.swift */; };
 		C7BB37872260BA4A0099EB1B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB37862260BA4A0099EB1B /* DataManager.swift */; };
 		C7BB37882260BA4A0099EB1B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB37862260BA4A0099EB1B /* DataManager.swift */; };
+		C7BB378C2260C8C10099EB1B /* OnboardingScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7BB378F2260C8C10099EB1B /* OnboardingScreen.strings */; };
+		C7BB378D2260C8C10099EB1B /* OnboardingScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7BB378F2260C8C10099EB1B /* OnboardingScreen.strings */; };
 		C7FCE615224A313700610E58 /* MainPresenterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A3162245304300F233A4 /* MainPresenterFactoryProtocol.swift */; };
 		C7FCE616224A313700610E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A2C52245184C00F233A4 /* AppDelegate.swift */; };
 		C7FCE617224A313700610E58 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A30F22452ED000F233A4 /* MainViewController.swift */; };
@@ -162,6 +164,8 @@
 		C7BB377F225F53F90099EB1B /* OnboardingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewController.swift; sourceTree = "<group>"; };
 		C7BB3782225F69C60099EB1B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		C7BB37862260BA4A0099EB1B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C7BB378E2260C8C10099EB1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/OnboardingScreen.strings; sourceTree = "<group>"; };
+		C7BB37902260C8C50099EB1B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/OnboardingScreen.strings; sourceTree = "<group>"; };
 		C7FCE62F224A313700610E58 /* Supplements dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supplements dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FCE631224A32B700610E58 /* dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dev-Info.plist"; sourceTree = "<group>"; };
 		C7FCE63A224A355200610E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainScreen.strings; sourceTree = "<group>"; };
@@ -482,6 +486,7 @@
 		C7FCE634224A350A00610E58 /* Localizable */ = {
 			isa = PBXGroup;
 			children = (
+				C7BB378F2260C8C10099EB1B /* OnboardingScreen.strings */,
 				C7FCE63B224A355200610E58 /* MainScreen.strings */,
 				C7FCE63C224A363000610E58 /* Localizable.swift */,
 				C7FCE63F224A369100610E58 /* Localizable+UIView+Extensions.swift */,
@@ -633,6 +638,7 @@
 				C7BB3776225F446B0099EB1B /* LaunchScreen.storyboard in Resources */,
 				C7BB376F225F3DF30099EB1B /* onboarding.storyboard in Resources */,
 				C7BB3779225F44990099EB1B /* main.storyboard in Resources */,
+				C7BB378C2260C8C10099EB1B /* OnboardingScreen.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +665,7 @@
 				C7BB3777225F446B0099EB1B /* LaunchScreen.storyboard in Resources */,
 				C7BB3770225F3DF30099EB1B /* onboarding.storyboard in Resources */,
 				C7BB377A225F44990099EB1B /* main.storyboard in Resources */,
+				C7BB378D2260C8C10099EB1B /* OnboardingScreen.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,6 +887,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C7BB378F2260C8C10099EB1B /* OnboardingScreen.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BB378E2260C8C10099EB1B /* en */,
+				C7BB37902260C8C50099EB1B /* pl */,
+			);
+			name = OnboardingScreen.strings;
+			sourceTree = "<group>";
+		};
 		C7FCE63B224A355200610E58 /* MainScreen.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

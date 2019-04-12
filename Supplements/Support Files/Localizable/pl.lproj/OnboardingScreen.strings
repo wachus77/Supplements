@@ -1,0 +1,14 @@
+/* 
+  OnboardingScreen.strings
+  Supplements
+
+  Created by Tomasz Iwaszek on 4/12/19.
+  Copyright © 2019 matchusolutions. All rights reserved.
+*/
+
+firstScreenTitle = "first title";
+firstScreenDesc = "first desc";
+secondScreenTitle = "second title";
+secondScreenDesc = "second desc";
+thirdScreenTitle = "third title";
+thirdScreenDesc = "third desc";
