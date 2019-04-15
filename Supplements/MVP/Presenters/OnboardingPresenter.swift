@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol OnboardingViewDelegate: class {
     func finish()
@@ -23,5 +24,26 @@ class OnboardingPresenter: OnboardingPresenterProtocol {
     
     func closeOnboarding() {
         delegate.finish()
+    }
+    
+    func getTitleImageAndDescOfContentView(index: Int) {
+        var title = ""
+        var desc = ""
+        switch index {
+        case 0:
+            title = OnboardingScreen.firstScreenTitle.localized
+            desc = OnboardingScreen.firstScreenDesc.localized
+        case 1:
+            title = OnboardingScreen.secondScreenTitle.localized
+            desc = OnboardingScreen.secondScreenDesc.localized
+        case 2:
+            title = OnboardingScreen.thirdScreenTitle.localized
+            desc = OnboardingScreen.thirdScreenDesc.localized
+        default:
+            title = OnboardingScreen.firstScreenTitle.localized
+            desc = OnboardingScreen.firstScreenDesc.localized
+        }
+        
+        view.setTitleImageAndDescOfContentView(index: index, title: title, desc: desc, image: UIImage(named:"supple_wall")!)
     }
 }

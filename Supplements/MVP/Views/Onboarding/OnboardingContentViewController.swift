@@ -22,20 +22,12 @@ class OnboardingContentViewController: UIViewController {
     
     var backgroundColor: UIColor = .red
     
-    var titleText: String = "Supplements"
-    
-    var descriptionText: String = "great creatine"
-    
-    var contentImage: UIImage = UIImage(named: "supple_wall")!
-    
     var index = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = backgroundColor
-        titleLabel.text = titleText
-        descriptionLabel.text = descriptionText
-        contentImageView.image = contentImage
+        presenter.getTitleImageAndDescOfContentView(index: index)
         
         for (index, view) in progressStackView.subviews.enumerated() {
             if index == self.index {
@@ -43,6 +35,12 @@ class OnboardingContentViewController: UIViewController {
                 break
             }
         }
+    }
+    
+    func setTitleImageAndDescOfContentView(title: String, desc: String, image: UIImage) {
+        titleLabel.text = title
+        descriptionLabel.text = desc
+        contentImageView.image = image
     }
     
     @IBAction func closeTapped(_ sender: Any) {

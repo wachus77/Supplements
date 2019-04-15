@@ -42,4 +42,8 @@ class OnboardingViewController: LiquidSwipeContainerController, LiquidSwipeConta
     }
 }
 
-extension OnboardingViewController: OnboardingViewProtocol {}
+extension OnboardingViewController: OnboardingViewProtocol {
+    func setTitleImageAndDescOfContentView(index: Int, title: String, desc: String, image: UIImage) {
+        viewControllers[index].setTitleImageAndDescOfContentView(title: title, desc: desc, image: image)
+    }
+}
