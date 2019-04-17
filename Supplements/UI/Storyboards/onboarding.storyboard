@@ -33,7 +33,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="supplements" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yri-wi-tfr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="supplements, supplements" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yri-wi-tfr">
                                 <rect key="frame" x="20" y="74" width="374" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -45,9 +45,9 @@
                                     <constraint firstAttribute="width" secondItem="TCf-9g-N6a" secondAttribute="height" multiplier="4:3" id="am8-4g-v3l"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4s-57-SeJ">
-                                <rect key="frame" x="20" y="432.5" width="339" height="215"/>
-                                <string key="text">A dietary supplement is a manufactured product intended to supplement the diet when taken by mouth as a pill, capsule, tablet, or liquid. A supplement can provide nutrients either extracted from food sources or synthetic, individually or in combination, in order to increase the quantity of their consumption</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4s-57-SeJ">
+                                <rect key="frame" x="20" y="432.5" width="339" height="366.5"/>
+                                <mutableString key="text">A dietary supplement is a manufactured product intended to supplement the diet when taken by mouth as a pill, capsule, tablet, or liquid. A supplement can provide nutrients either extracted from food sources or synthetic, individually or in combination, in order to increase the quantity of their consumption A dietary supplement is a manufactured product intended to supplement the diet when taken by mouth as a pill, capsule, tablet, or liquid. A supplement can provide nutrients either extracted from food sources or synthetic, individually or in combination, in order to increase the quantity of their consumption</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
